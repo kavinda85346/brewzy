@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brewzy is a web application which generates beverages recipes using image processing">
+  <title>Brewzy | Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='styles/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <!--manifest start-->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/icons/apple-touch-icon.png') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/icons/favicon-32x32.png') }}">
+  <link rel="icon" type="image/png" sizes="194x194" href="{{ url_for('static', filename='images/icons/favicon-194x194.png') }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='images/icons/android-chrome-192x192.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/icons/favicon-16x16.png') }}">
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="mask-icon" href="{{ url_for('static', filename='images/icons/safari-pinned-tab.svg') }}" color="#5bbad5">
+  <meta name="msapplication-config" content="{{ url_for('static', filename='browserconfig.xml') }}">
+  <!--<meta name="msapplication-TileColor" content="#da532c">-->
+  <meta name="theme-color" content="#ffffff">
+  <!--manifest end-->
+  <style>
+    .custom-table {
+    background-color: transparent; /* Set the background to transparent */
+    }
+    .custom-table th,
+    .custom-table td {
+        background-color: transparent; /* Ensure all table cells are also transparent */
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <!--Starting of first column-->
+      <div class="col-xl-9 mb-2" style="background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);">
+        <!--First column header start-->
+        {% include 'partials/header.html' %}
+        <!--First column header end-->
+        <!--Content start-->
+        {% include 'partials/content.html' %}
+        <!--Content end-->
+      </div>
+      <!--Image Input End-->
+      <!--Footer start-->
+      {% include 'partials/footer.html' %}
+      <!--Footer end-->
+      </div>
+      <!--Ending of first column-->
+      <!--Starting of second column-->
+      <div class="col-xl-3" style="background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);">
+        <!--Second column header start-->
+        {% include 'partials/chat_header.html' %}
+        <!--Second column header end-->
+        <!--Node List Start-->
+        {% include 'partials/chat_node.html' %}
+        <!--Node List End-->
+      </div>
+      <!--Ending of second column-->
+    </div>
+  </div>
+  <script>
+    function loadRecipe(recipeName) {
+        const classLabel = "{{ prediction }}";  // Use the predicted class label
+        // Function to fetch recipe with retry mechanism
+        const fetchRecipe = (retry = 0) => {
+            fetch(`/get_recipe?recipe_name=${recipeName}&class_label=${classLabel}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        alert(data.error);
+                    } else {
+                        // Clear previous recipe details before showing the new recipe
+                        document.getElementById('recipe-name').textContent = data['Recipe Name'];
+                        document.getElementById('recipe-description').textContent = "This is a delicious smoothie perfect for a refreshing treat!";
+                        
+                        // Populate Ingredients
+                        const ingredientsList = document.getElementById('recipe-ingredients');
+                        ingredientsList.innerHTML = '';
+                        for (const [key, value] of Object.entries(data['Ingredients'])) {
+                            ingredientsList.innerHTML += `<li>${key}: ${value}</li>`;
+                        }
+
+                        // Populate Nutritional Information
+                        document.getElementById('recipe-calories').textContent = data['Nutritional Information (per serving)']['Calories'] + ' kcal';
+                        document.getElementById('recipe-carbs').textContent = data['Nutritional Information (per serving)']['Carbohydrates'] + ' g';
+                        document.getElementById('recipe-sugars').textContent = data['Nutritional Information (per serving)']['Sugars'] + ' g';
+                        document.getElementById('recipe-protein').textContent = data['Nutritional Information (per serving)']['Protein'] + ' g';
+                        document.getElementById('recipe-fat').textContent = data['Nutritional Information (per serving)']['Fat'] + ' g';
+                        document.getElementById('recipe-fiber').textContent = data['Nutritional Information (per serving)']['Fiber'] + ' g';
+                        document.getElementById('recipe-sodium').textContent = data['Nutritional Information (per serving)']['Sodium'] + ' mg';
+
+                        // Populate Dietary Preferences
+                        const dietaryPreferencesList = document.getElementById('recipe-dietary-preferences');
+                        dietaryPreferencesList.innerHTML = '';
+                        for (const [key, value] of Object.entries(data['Dietary Preferences'])) {
+                            dietaryPreferencesList.innerHTML += `<li>${key}: ${value['Is Vegan'] || 'No'}${value['Substitute'] ? ', Substitute: ' + value['Substitute'] : ''}</li>`;
+                        }
+
+                        // Populate Preparation Steps
+                        const instructionsList = document.getElementById('recipe-instructions');
+                        instructionsList.innerHTML = '';
+                        data['Preparation Steps'].forEach(step => {
+                            instructionsList.innerHTML += `<li>${step}</li>`;
+                        });
+
+                        // Populate Serving Size
+                        document.getElementById('recipe-serving-size').textContent = data['Serving Size'];
+
+                        // Populate Additional Notes
+                        document.getElementById('recipe-additional-notes').textContent = data['Additional Notes']['Storage Instructions'] || '';
+
+                        // Populate Source URL
+                        const sourceUrl = document.getElementById('recipe-source-url');
+                        sourceUrl.href = data['Source URL'];
+                        sourceUrl.textContent = 'View Full Recipe';
+
+                        // Show the recipe details
+                        document.getElementById('recipe-details').classList.remove('d-none');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading recipe:', error);
+                    if (retry < 3) {  // Retry up to 3 times
+                        console.log(`Retrying... (${retry + 1})`);
+                        fetchRecipe(retry + 1);
+                    } else {
+                        alert("Failed to load recipe after multiple attempts.");
+                    }
+                });
+        };
+        // Initial fetch
+        fetchRecipe();
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="{{ url_for('static', filename='scripts/bootstrap/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='scripts/bootstrap/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='scripts/bootstrap/bootstrap.min.js') }}"></script>
+</body>
+</html>

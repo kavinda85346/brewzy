@@ -1,0 +1,303 @@
+[
+   {
+     "Recipe Name": "Banana Spinach Smoothie",
+     "Ingredients": {
+       "Main Ingredients": "1 Banana, 1 cup Spinach, 1/2 cup yogurt, 1/2 cup almond milk",
+       "Sweeteners": "1 tsp honey",
+       "Flavorings/Spices": "1/2 tsp vanilla extract",
+       "Liquids/Mixers": "Almond milk",
+       "Garnishes": "Banana slices",
+       "Ice or Frozen Ingredients": "1/2 cup ice"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 180,
+       "Carbohydrates": 35,
+       "Sugars": 15,
+       "Protein": 6,
+       "Fat": 3,
+       "Fiber": 5,
+       "Sodium": 50
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "Use coconut yogurt" },
+       "Nut-Free": { "Is Nut-Free": "No", "Substitute": "Use coconut milk instead of almond milk" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "Use dairy-free yogurt" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "No", "Substitute": "Omit honey" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "No", "Notes": "Contains almonds" }
+     },
+     "Preparation Steps": [
+       "Step 1: Combine banana, spinach, yogurt, and almond milk in a blender.",
+       "Step 2: Add honey and vanilla extract.",
+       "Step 3: Blend until smooth.",
+       "Step 4: Pour into a glass, add ice, and garnish with banana slices."
+     ],
+     "Serving Size": "1 serving",
+     "Additional Notes": {
+       "Storage Instructions": "Consume immediately or store in fridge for up to 1 day.",
+       "Variations": "Swap almond milk for oat milk for a nut-free option.",
+       "Tips": "Add a tablespoon of chia seeds for extra fiber."
+     },
+     "Source URL": "https://example.com/banana-spinach-smoothie"
+   },
+   {
+    "Recipe Name": "Ranawara Drink",
+    "Ingredients": {
+      "Main Ingredients": "1 ginger, bundle leaves of Ranawara Leafs, 1 lime",
+      "Sweeteners": "Not Applicable",
+      "Flavorings/Spices": "Not Applicable",
+      "Liquids/Mixers": "Hot Water",
+      "Garnishes": "Not Applicable",
+      "Ice or Frozen Ingredients": "Not Applicable"
+    },
+    "Nutritional Information (per serving)": {
+      "Calories": 180,
+      "Carbohydrates": 0,
+      "Sugars": 0,
+      "Protein": 23,
+      "Fat": 0,
+      "Fiber": 100,
+      "Sodium": 10
+    },
+    "Dietary Preferences": {
+      "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "Use coconut yogurt" },
+      "Nut-Free": { "Is Nut-Free": "No", "Substitute": "Use coconut milk instead of almond milk" },
+      "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "Use dairy-free yogurt" },
+      "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+      "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "No", "Substitute": "Omit honey" },
+      "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+      "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+      "Allergen-Free": { "Is Allergen-Free": "No", "Notes": "Contains almonds" }
+    },
+    "Preparation Steps": [
+      "Step 1: Grid Ranawara Leaves into a tick paste.",
+      "Step 2: Chop the ginger",
+      "Step 3: Add the grinded paste and ginger into hot boiling pan let it simmer for a hour.",
+      "Step 4: Strain the boiled liquid into a jug."
+    ],
+    "Serving Size": "1 serving",
+    "Additional Notes": {
+      "Storage Instructions": "Consume immediately.",
+      "Variations": "Not Applicable",
+      "Tips": "Not Applicable"
+    },
+    "Source URL": "https://example.com/banana-spinach-smoothie"
+  },
+   {
+     "Recipe Name": "Apple Carrot Juice",
+     "Ingredients": {
+       "Main Ingredients": "2 Apples, 2 Carrots, 1 Lemon",
+       "Sweeteners": "Optional: 1 tsp honey",
+       "Flavorings/Spices": "1/4 tsp ginger",
+       "Liquids/Mixers": "Water",
+       "Garnishes": "Lemon slice",
+       "Ice or Frozen Ingredients": "None"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 120,
+       "Carbohydrates": 28,
+       "Sugars": 20,
+       "Protein": 1,
+       "Fat": 0.5,
+       "Fiber": 6,
+       "Sodium": 30
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "" },
+       "Nut-Free": { "Is Nut-Free": "Yes", "Substitute": "" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "Yes", "Substitute": "Omit honey" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "Yes", "Notes": "" }
+     },
+     "Preparation Steps": [
+       "Step 1: Peel and chop the apples and carrots.",
+       "Step 2: Juice the apples, carrots, and lemon together.",
+       "Step 3: Add ginger for extra flavor and stir.",
+       "Step 4: Serve chilled and garnish with a lemon slice."
+     ],
+     "Serving Size": "2 servings",
+     "Additional Notes": {
+       "Storage Instructions": "Store in fridge for up to 1 day.",
+       "Variations": "Add 1/2 a beetroot for a deeper color and earthy taste.",
+       "Tips": "Use organic apples for better flavor."
+     },
+     "Source URL": "https://example.com/apple-carrot-juice"
+   },
+   {
+     "Recipe Name": "Cucumber Mint Lemonade",
+     "Ingredients": {
+       "Main Ingredients": "1 Cucumber, 1 Lemon, 5 Mint leaves, 1/2 cup water",
+       "Sweeteners": "1 tbsp honey",
+       "Flavorings/Spices": "Pinch of salt",
+       "Liquids/Mixers": "Water",
+       "Garnishes": "Mint leaves",
+       "Ice or Frozen Ingredients": "Ice cubes"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 60,
+       "Carbohydrates": 15,
+       "Sugars": 10,
+       "Protein": 1,
+       "Fat": 0,
+       "Fiber": 2,
+       "Sodium": 20
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "Omit honey or use agave syrup" },
+       "Nut-Free": { "Is Nut-Free": "Yes", "Substitute": "" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "No", "Substitute": "Use stevia instead of honey" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "Yes", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "Yes", "Notes": "" }
+     },
+     "Preparation Steps": [
+       "Step 1: Peel and chop the cucumber.",
+       "Step 2: Blend cucumber, lemon juice, mint leaves, honey, and water.",
+       "Step 3: Strain the mixture and add ice cubes.",
+       "Step 4: Serve in a glass and garnish with fresh mint."
+     ],
+     "Serving Size": "1 serving",
+     "Additional Notes": {
+       "Storage Instructions": "Consume immediately for freshness.",
+       "Variations": "Add sparkling water for a fizzy version.",
+       "Tips": "Use chilled cucumbers for a cooler drink."
+     },
+     "Source URL": "https://example.com/cucumber-mint-lemonade"
+   },
+   {
+     "Recipe Name": "Pineapple Mango Smoothie",
+     "Ingredients": {
+       "Main Ingredients": "1 cup Pineapple chunks, 1/2 cup Mango, 1/2 cup coconut milk",
+       "Sweeteners": "Optional: 1 tsp maple syrup",
+       "Flavorings/Spices": "1/4 tsp turmeric",
+       "Liquids/Mixers": "Coconut milk",
+       "Garnishes": "Pineapple slice",
+       "Ice or Frozen Ingredients": "1/2 cup ice"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 210,
+       "Carbohydrates": 45,
+       "Sugars": 30,
+       "Protein": 2,
+       "Fat": 5,
+       "Fiber": 4,
+       "Sodium": 30
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "" },
+       "Nut-Free": { "Is Nut-Free": "Yes", "Substitute": "" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "No", "Substitute": "Use stevia instead of maple syrup" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "No", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "Yes", "Notes": "" }
+     },
+     "Preparation Steps": [
+       "Step 1: Add pineapple, mango, coconut milk, and turmeric to a blender.",
+       "Step 2: Blend until smooth.",
+       "Step 3: Add ice and blend again.",
+       "Step 4: Serve in a glass and garnish with a pineapple slice."
+     ],
+     "Serving Size": "1 serving",
+     "Additional Notes": {
+       "Storage Instructions": "Store in fridge for up to 1 day.",
+       "Variations": "Add a handful of spinach for extra nutrition.",
+       "Tips": "Use frozen fruit for a thicker smoothie."
+     },
+     "Source URL": "https://example.com/pineapple-mango-smoothie"
+   },
+   {
+     "Recipe Name": "Kiwi Pomegranate Juice",
+     "Ingredients": {
+       "Main Ingredients": "2 Kiwi, 1/2 cup Pomegranate seeds, 1/2 cup water",
+       "Sweeteners": "1 tsp honey",
+       "Flavorings/Spices": "1/4 tsp ginger",
+       "Liquids/Mixers": "Water",
+       "Garnishes": "Kiwi slices",
+       "Ice or Frozen Ingredients": "None"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 110,
+       "Carbohydrates": 25,
+       "Sugars": 20,
+       "Protein": 2,
+       "Fat": 0.5,
+       "Fiber": 4,
+       "Sodium": 5
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "" },
+       "Nut-Free": { "Is Nut-Free": "Yes", "Substitute": "" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "No", "Substitute": "Omit honey" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "Yes", "Notes": "" }
+     },
+     "Preparation Steps": [
+       "Step 1: Peel and chop the kiwi.",
+       "Step 2: Blend kiwi, pomegranate seeds, water, honey, and ginger.",
+       "Step 3: Strain and serve chilled.",
+       "Step 4: Garnish with kiwi slices."
+     ],
+     "Serving Size": "1 serving",
+     "Additional Notes": {
+       "Storage Instructions": "Consume immediately or store for 1 day in the fridge.",
+       "Variations": "Add lemon for extra tartness.",
+       "Tips": "Use chilled water for a more refreshing drink."
+     },
+     "Source URL": "https://example.com/kiwi-pomegranate-juice"
+   },
+   {
+     "Recipe Name": "Watermelon Ginger Cooler",
+     "Ingredients": {
+       "Main Ingredients": "2 cups Watermelon chunks, 1/4 tsp Ginger, 1/2 Lemon",
+       "Sweeteners": "Optional: 1 tsp honey",
+       "Flavorings/Spices": "1/4 tsp mint extract",
+       "Liquids/Mixers": "Water",
+       "Garnishes": "Mint leaves",
+       "Ice or Frozen Ingredients": "Ice cubes"
+     },
+     "Nutritional Information (per serving)": {
+       "Calories": 80,
+       "Carbohydrates": 18,
+       "Sugars": 16,
+       "Protein": 1,
+       "Fat": 0.5,
+       "Fiber": 1.5,
+       "Sodium": 10
+     },
+     "Dietary Preferences": {
+       "Vegan Friendly": { "Is Vegan": "Yes", "Substitute": "" },
+       "Nut-Free": { "Is Nut-Free": "Yes", "Substitute": "" },
+       "Dairy-Free": { "Is Dairy-Free": "Yes", "Substitute": "" },
+       "Gluten-Free": { "Is Gluten-Free": "Yes", "Substitute": "" },
+       "Sugar-Free/Low-Sugar": { "Is Sugar-Free/Low-Sugar": "Yes", "Substitute": "Omit honey" },
+       "Low-Carb/Ketogenic": { "Is Low-Carb/Ketogenic": "No", "Substitute": "" },
+       "Low-Calorie/Diet-Friendly": { "Is Low-Calorie": "Yes", "Substitute": "" },
+       "Allergen-Free": { "Is Allergen-Free": "Yes", "Notes": "" }
+     },
+     "Preparation Steps": [
+       "Step 1: Blend watermelon chunks, ginger, lemon juice, and water.",
+       "Step 2: Add ice cubes and blend again.",
+       "Step 3: Serve in a glass with mint leaves for garnish."
+     ],
+     "Serving Size": "2 servings",
+     "Additional Notes": {
+       "Storage Instructions": "Best consumed immediately.",
+       "Variations": "Add sparkling water for a fizzy drink.",
+       "Tips": "Use fresh ginger for a stronger flavor."
+     },
+     "Source URL": "https://example.com/watermelon-ginger-cooler"
+   }
+ ]
+ 

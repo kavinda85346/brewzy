@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brewzy | Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+  <!--pwa start-->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/icons/apple-touch-icon.png') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/icons/favicon-32x32.png') }}">
+  <link rel="icon" type="image/png" sizes="194x194" href="{{ url_for('static', filename='images/icons/favicon-194x194.png') }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='images/icons/android-chrome-192x192.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/icons/favicon-16x16.png') }}">
+  <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+  <link rel="mask-icon" href="{{ url_for('static', filename='images/icons/safari-pinned-tab.svg') }}" color="#5bbad5">
+  <meta name="msapplication-config" content="{{ url_for('static', filename='browserconfig.xml') }}">
+  <!--<meta name="msapplication-TileColor" content="#da532c">-->
+  <meta name="theme-color" content="#ffffff">
+  <!--pwa end-->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <!--Starting of first column-->
+      <div class="col-xl-9 mb-2">
+        <!--First column header start-->
+        <div class="row">
+          <nav class="navbar" style="background-color: #FFFDD0">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="{{ url_for('static', filename='images/icons/brewzy_logo.png') }}" alt="Logo" width="24" height="28" class="d-inline-block">
+                Brewzy
+              </a>
+              <div class="d-flex gap-3">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Signup
+                  <img src="{{ url_for('static', filename='images/icons/register.png') }}" class="p-1" height="25" width="25">
+                </button>
+                <!--Registration Form Start-->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Registration</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="username" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="number" class="form-control" placeholder="Age" aria-label="Age" id="age" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="mb-3">
+                            <textarea class="form-control" id="message-text" placeholder="Dietrary Restictions"></textarea>
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" id="email_address" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Password" aria-label="Password" id="password" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Retype Password" aria-label="Retype Password" id="retype_password" aria-describedby="basic-addon1">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                            Reset
+                            <img src="{{ url_for('static', filename='images/icons/reset.png') }}" class="p-1" height="25" width="25">
+                          </button>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                            Register
+                            <img src="{{ url_for('static', filename='images/icons/login.png') }}" class="p-1" height="25" width="25">
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Registration Form End-->
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#login">
+                  Login
+                  <img src="{{ url_for('static', filename='images/icons/login.png') }}" class="p-1" height="25" width="25">
+                </button>
+                <!--Login Form Start-->
+                <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="username" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="Password" aria-label="Password" id="password" aria-describedby="basic-addon1">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <div class="d-grid gap-2 col-12 mx-auto">
+                          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                            Reset
+                            <img src="{{ url_for('static', filename='images/icons/reset.png') }}" class="p-1" height="25" width="25">
+                          </button>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                            Login
+                            <img src="{{ url_for('static', filename='images/icons/login.png') }}" class="p-1" height="25" width="25">
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Login Form End-->
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#logout">
+                  Logout
+                  <img src="{{ url_for('static', filename='images/icons/logout.png') }}" class="p-1" height="25" width="25">
+                </button>
+                <!--Logout form start-->
+                <div class="modal fade" id="logout" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Logout</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Do you want to logout from the application?</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                          No
+                          <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                          Yes
+                          <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Logout form end-->
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--First column header end-->
+        <h2 class="mt-2 text-center mb-2">Explore the World of Beverages!</h2>
+        <!--Carousel start-->
+        <div class="row mb-4">
+          <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-50 img-fluid rounded mx-auto" src="{{ url_for('static', filename='images/apple_cider_vinger.png') }}" alt="First slide">
+                <div class="overlay">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 img-fluid rounded mx-auto" src="{{ url_for('static', filename='images/carrot_smoothie.png') }}" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 img-fluid rounded mx-auto" src="{{ url_for('static', filename='images/daiquiri.png') }}" alt="Third slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--Carousel end-->
+        <!--Prompt start-->
+        <div class="row mt-3 mb-4">
+          <div class="container container-border mb-2">
+            <div class="col-12">
+              <textarea class="form-control textarea-no-border" placeholder="Ask me anything" maxlength="2000"></textarea>
+            </div>
+            <div class="col-12 d-flex justify-content-between">
+              <div class="d-flex justify-content-start">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/email.png') }}" height="20" width="20">
+                </button>
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/text.png') }}" height="20" width="20">
+                </button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/image.png') }}" height="20" width="20">
+                </button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/document.png') }}" height="20" width="20">
+                </button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/audio.png') }}" height="20" width="20">
+                </button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/animation.png') }}" height="20" width="20">
+                </button>
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/video.png') }}" height="20" width="20">
+                </button>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#">
+                  <img src="{{ url_for('static', filename='images/icons/message_sent.png') }}" height="20" width="20">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Prompt end-->
+        <!--Image Input Start-->
+        <div class="row mt-3 mb-3">
+          <!--<form method="POST" action="/predict" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" value="Upload">
+          </form>-->
+          <!--<form method="POST" action="#" enctype="multipart/form-data">
+            <div class="input-group">
+              <input type="file" name="image" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+              <button class="btn btn-dark" type="submit" value="Upload" id="inputGroupFileAddon04">Upload</button>
+            </div>
+          </form>
+          <label>he</label>-->
+          <form method="POST" enctype="multipart/form-data">
+            <div class="input-group mb-3">
+              <input type="file" name="image" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+              <button class="btn btn-dark" type="submit" value="Upload" id="inputGroupFileAddon04">Upload</button>
+            </div>
+          </form>
+          <!-- Display prediction result and beverages -->
+          {% if prediction %}
+          <h3 class="text-center">Predicted Ingredient: {{ prediction }}</h3>
+          
+          <!-- Display beverage recipes in a card view -->
+          <h1 class="text-center mb-4">Beverages made with '{{ prediction }}'</h1>
+          {% if beverages %}
+              <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+                  {% for beverage in beverages %}
+                  <div class="col">
+                      <div class="card h-100">
+                          <!-- Default beverage image -->
+                          <img src="{{ url_for('static', filename='images/default_drink.png') }}" class="card-img-top" alt="Beverage Image">
+                          
+                          <!-- Beverage details -->
+                          <div class="card-body">
+                              <h5 class="card-title text-center">{{ beverage['Name'] }}</h5>
+                              <p class="card-text">Ingredients: {{ beverage['Ingredients'] }}</p>
+                          </div>
+
+                          <!-- Button to view full recipe (can be extended with modals or separate pages) -->
+                          <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#recipeModal{{ loop.index }}">
+                              View Recipe
+                              <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+                          </button>
+
+                          <!-- Modal (optional) to show full recipe details -->
+                          <div class="modal fade" id="recipeModal{{ loop.index }}" tabindex="-1" aria-labelledby="recipeModalLabel{{ loop.index }}" aria-hidden="true">
+                              <div class="modal-dialog">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <h5 class="modal-title" id="recipeModalLabel{{ loop.index }}">{{ beverage['Name'] }} Recipe</h5>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                          <p><strong>Ingredients:</strong> {{ beverage['Ingredients'] }}</p>
+                                          <p><strong>Instructions:</strong> {{ beverage['Instructions'] }}</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  {% endfor %}
+              </div>
+            {% else %}
+                <p>No beverages found using '{{ prediction }}'.</p>
+            {% endif %}
+          {% endif %}
+        </div>
+        <!--Image Input End-->
+        <!--Card Result show-->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/apple_cider_vinger.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Apple Cider Vinger</h5>
+                <p class="card-text">Embrace the power of nature in every sip!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/champurrado_porridge.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Champurrado Porridge</h5>
+                <p class="card-text">Start your day with a bowl of warmth and goodness!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/chocolate_shake.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Chocolate Shake</h5>
+                <p class="card-text">Blend your way to bliss with every sip!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+                <img src="{{ url_for('static', filename='images/cold_molted_vanila.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Cold Molted Vanila</h5>
+                <p class="card-text">Indulge in the warmth of tradition, one sip at a time!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/daiquiri.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Daiquiri</h5>
+                <p class="card-text">Cheers to new experiences! Every sip is a journey!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/home_brewed_wine.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Home Brewed Wine</h5>
+                <p class="card-text">Crafted with care, enjoyed with flair. Home brew: your personal touch in every sip!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/hot_buttered_rum.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Hot Buttered Rum</h5>
+                <p class="card-text">Warm up your soul with every sip. Embrace the heat, savor the moment!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/hot_tea.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Tea</h5>
+                <p class="card-text">Raise your glass and savor the moment - every sip is a celebration!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/mix_berry_smoothie.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Mix Berry Smoothie</h5>
+                <p class="card-text">Blend your way to a burst of flavor and health in every sip!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/mango_shake.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Mango Shake</h5>
+                <p class="card-text">Blend your way to bliss with every sip!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/strawberry_honey_soda.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Strawberry Honey Soda</h5>
+                <p class="card-text">Raise your glass to flavor without the fuss!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{{ url_for('static', filename='images/tomato_soup.png') }}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Tomato Soup</h5>
+                <p class="card-text">Warm your soul with a bowl of comfort!</p>
+              </div>
+              <button type="button" class="btn btn-primary col-11 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#">
+                View Recipe
+                <img src="{{ url_for('static', filename='images/icons/view.png') }}" class="p-1" height="25" width="25">
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--Card Result end-->
+        <!--Recipe Details Start-->
+        <div class="row">
+          <div class="col">
+            <div class="card mb-3">
+              <img src="{{ url_for('static', filename='images/mango_shake.png') }}" class="card-img-top img-fluid align-items-center w-75" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mango Shake</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h6>Ingridents</h6>
+                <ul>
+                  <li>Aa</li>
+                  <li>Bb</li>
+                  <li>Cc</li>
+                </ul>
+                <h6>Instructions</h6>
+                <ol>
+                  <li>As</li>
+                  <li>RT</li>
+                  <li>Op</li>
+                </ol>
+                <h6>Nutrition</h6>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Calories</th>
+                      <td>277kcal</td>
+                    </tr>
+                    <tr>
+                      <td>Carbs</th>
+                      <td>0g</td>
+                    </tr>
+                    <tr>
+                      <td>Protein</th>
+                      <td>20g</td>
+                    </tr>
+                    <tr>
+                      <td>Fat</th>
+                      <td>22g</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Recipe Details End-->
+        <!--Footer start-->
+        <div class="row">
+          <nav class="navbar" style="background-color: #FFFDD0">
+            <div class="text-center col-12 container-fluid">
+              <div class="mt-2">
+                &copy;2024 Copyrighted
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--Footer end-->
+      </div>
+      <!--Ending of first column-->
+      <!--Starting of second column-->
+      <div class="col-xl-3" style="background-color: #EFEDE3;">
+        <!--Second column header start-->
+        <div class="row">
+          <nav class="navbar" style="background-color: #C2D8D3;">
+            <div class="container-fluid">
+              <a class="navbar-brand">Chats</a>
+              <div class="d-flex d-md-flex justify-content-md-end">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#add">
+                  <img src="{{ url_for('static', filename='images/icons/add.png') }}" height="20" width="20">
+                </button>
+                <!--Chat creation form start-->
+                <div class="modal fade" id="add" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Add Chat</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Do you want to start a new chat?</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                          No
+                          <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                          Yes
+                          <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Chat creation form end-->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#view">
+                  <img src="{{ url_for('static', filename='images/icons/view.png') }}" height="20" width="20">
+                </button>
+                <!--Chat view form start-->
+                <div class="modal fade" id="view" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">View Chat</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Do you want to view the chat?</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                          No
+                          <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                          Yes
+                          <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Chat view form end-->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#update">
+                  <img src="{{ url_for('static', filename='images/icons/update.png') }}" height="20" width="20">
+                </button>
+                <!--Chat update form start-->
+                <div class="modal fade" id="update" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Update Chat</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Do you want to update the chat?</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                          No
+                          <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                          Yes
+                          <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Chat update form end-->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#delete">
+                  <img src="{{ url_for('static', filename='images/icons/delete.png') }}" height="20" width="20">
+                </button>
+                <!--Chat delete form start-->
+                <div class="modal fade" id="delete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Delete Chat</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Do you want to delete the chat(s)?</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                          No
+                          <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                          Yes
+                          <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Chat delete form end-->
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--Second column header end-->
+        <!--Node List Start-->
+        <div class="row mt-3 mb-3">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                    <input type="checkbox" class="chat-checkbox" data-message-id="1">
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                        <h6>Card title</h6>
+                    </div>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-center">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="{{ url_for('static', filename='images/icons/options.png') }}"  height="5" width="20">
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">View</a></li>
+                      <li><a class="dropdown-item" href="#">Update</a></li>
+                      <li><a class="dropdown-item" href="#">Delete</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Node List End-->
+      </div>
+      <!--Ending of second column-->
+    </div>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/static/service_worker.js')
+        .then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch(error => {
+          console.log('Service Worker registration failed:', error);
+        });
+    }
+    const myCarousel = document.getElementById('carouselExampleControls');
+    const carousel = new bootstrap.Carousel(myCarouselElement,{
+      interval:2000,
+      touch: false
+    });
+  </script>
+  <!--<script src="./scripts/index.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>

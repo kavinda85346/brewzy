@@ -1,0 +1,42 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Pergamon(2014)]{website4}
+Pergamon.
+\newblock Beyond the hype: Big data concepts, methods, and analytics, 2014.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0268401214001066}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem[Researchgate(2021)]{website3}
+Researchgate.
+\newblock Data cleansing mechanisms and approaches for big data analytics: A
+  systematic study, 2021.
+\newblock URL
+  \url{https://www.researchgate.net/publication/356292133_Data_cleansing_mechanisms_and_approaches_for_big_data_analytics_a_systematic_study}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem[SpringerLink(2014)]{website5}
+SpringerLink.
+\newblock Big data: A survey - mobile networks and applications, 2014.
+\newblock URL
+  \url{https://link.springer.com/article/10.1007/s11036-013-0489-0}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem[SpringerLink(2023)]{website1}
+SpringerLink.
+\newblock Big data, cloud computing, and data science engineering, 2023.
+\newblock URL \url{https://link.springer.com/book/10.1007/978-3-031-19608-9}.
+\newblock Accessed: 2024-06-11.
+
+\bibitem[Tableau()]{website2}
+Tableau.
+\newblock What is big data? big data explained.
+\newblock URL \url{https://www.tableau.com/learn/articles/what-is-big-data}.
+\newblock Accessed: 2024-06-11.
+
+\end{thebibliography}

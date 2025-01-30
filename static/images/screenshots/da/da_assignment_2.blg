@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: da_assignment_2.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+Database file #1: da_assignment_references.bib
+Warning--empty year in website2
+You've used 5 entries,
+            2773 wiz_defined-function locations,
+            615 strings with 5632 characters,
+and the built_in function-call counts, 1562 in all, are:
+= -- 139
+> -- 50
+< -- 5
++ -- 20
+- -- 15
+* -- 77
+:= -- 244
+add.period$ -- 20
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 5
+cite$ -- 11
+duplicate$ -- 75
+empty$ -- 161
+format.name$ -- 20
+if$ -- 330
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 38
+num.names$ -- 20
+pop$ -- 64
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 10
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 55
+warning$ -- 1
+while$ -- 15
+width$ -- 0
+write$ -- 76
+(There was 1 warning)

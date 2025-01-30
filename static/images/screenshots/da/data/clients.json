@@ -1,0 +1,2102 @@
+[
+    {
+        "_id": "cli00000001",
+        "client_name": "CloudGrid Solutions",
+        "client_contact": [
+            {
+               "email_address": "info@cloudgridsolutions.com",
+               "phone_number": "+1-800-334-8759"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 1024,
+                "street_name": "Palm Ave",
+                "city": "Los Angeles",
+                "state": "California",
+                "postcode": 90015,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@787"
+    },
+    {
+        "_id": "cli00000002",
+        "client_name": "NimbusHost Global",
+        "client_contact": [
+            {
+               "email_address": "support@nimbushostglobal.co.uk",
+               "phone_number": "+44-800-928-6743"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 17,
+                "street_name": "Primrose Hill",
+                "city": "London",
+                "state": "Edinburg",
+                "postcode": "NW3 3NA",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@788"
+    },
+    {
+        "_id": "cli00000003",
+        "client_name": "SkyHub Networks",
+        "client_contact": [
+            {
+               "email_address": "contact@skyhubnetworks.com.au",
+               "phone_number": "+61-1800-112-234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 42,
+                "street_name": "George St",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "postcode": 2000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@789"
+    },
+    {
+        "_id": "cli00000004",
+        "client_name": "ZenithCloud",
+        "client_contact": [
+            {
+               "email_address": "support@zenithcloud.fr",
+               "phone_number": "+33-1-4456-8790"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 55,
+                "street_name": "Rue de Rivoli",
+                "city": "Paris",
+                "state": "Encore",
+                "postcode": 75001,
+                "country": "France"
+            }
+        ],
+        "password": "pass@790"
+    },
+    {
+        "_id": "cli00000005",
+        "client_name": "NextGen Infrastructure",
+        "client_contact": [
+            {
+               "email_address": "info@nextgeninfra.co.in",
+               "phone_number": "+91-22-7896-4567"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 203,
+                "street_name": "Marine Drive",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "postcode": 400020,
+                "country": "India"
+            }
+        ],
+        "password": "pass@791"
+    },
+    {
+        "_id": "cli00000006",
+        "client_name": "InfraNova",
+        "client_contact": [
+            {
+               "email_address": "contact@infranova.jp",
+               "phone_number": "+81-3-4472-1187"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": "1-10-12",
+                "street_name": "Akasaka",
+                "city": "Minato City",
+                "state": "Tokyo",
+                "postcode": "107-0052",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@792"
+    },
+    {
+        "_id": "cli00000007",
+        "client_name": "PacificCloud Services",
+        "client_contact": [
+            {
+               "email_address": "help@pacificcloud.co.nz",
+               "phone_number": "+64-9-876-2334"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Queen St",
+                "city": "Auckland",
+                "state": "Auckland",
+                "postcode": 1010,
+                "country": "New Zealand"
+            }
+        ],
+        "password": "pass@793"
+    },
+    {
+        "_id": "cli00000008",
+        "client_name": "ScandiCore Cloud",
+        "client_contact": [
+            {
+               "email_address": "sales@scandicorecloud.se",
+               "phone_number": "+46-8-123-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 16,
+                "street_name": "Strandvägen",
+                "city": "Stockholm",
+                "state": "Stockholm",
+                "postcode": "114 51",
+                "country": "Sweden"
+            }
+        ],
+        "password": "pass@794"
+    },
+    {
+        "_id": "cli00000009",
+        "client_name": "AlpineData Systems",
+        "client_contact": [
+            {
+               "email_address": "support@alpinedatasystems.ch",
+               "phone_number": "+41-44-388-4920"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 89,
+                "street_name": "Bahnhofstrasse",
+                "city": "Zurich",
+                "state": "Zurich",
+                "postcode": 8001,
+                "country": "Switzerland"
+            }
+        ],
+        "password": "pass@795"
+    },
+    {
+        "_id": "cli00000010",
+        "client_name": "TerraByte Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@terrabytehosting.co.za",
+               "phone_number": "+27-21-456-9873"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 75,
+                "street_name": "Long St",
+                "city": "Cape Town",
+                "state": "Cape Town",
+                "postcode": 8001,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@796"
+    },
+    {
+        "_id": "cli00000011",
+        "client_name": "BlueWave Cloud Solutions",
+        "client_contact": [
+            {
+               "email_address": "contact@bluewavecloud.com",
+               "phone_number": "+1-213-567-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 890,
+                "street_name": "Sunset Blvd",
+                "city": "Los Angeles",
+                "state": "California",
+                "postcode": 90028,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@797"
+    },
+    {
+        "_id": "cli00000012",
+        "client_name": "NimbusSphere Tech",
+        "client_contact": [
+            {
+               "email_address": "info@nimbussphere.co.uk",
+               "phone_number": "+44-121-634-4521"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "High St",
+                "city": "Birmingham",
+                "state": "Birmingham",
+                "postcode": "B4 7SL",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@798"
+    },
+    {
+        "_id": "cli00000013",
+        "client_name": "CloudTitan",
+        "client_contact": [
+            {
+               "email_address": "support@cloudtitan.com.au",
+               "phone_number": "+61-2-9675-9874"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Bourke St",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "postcode": 3000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@799"
+    },
+    {
+        "_id": "cli00000014",
+        "client_name": "SkyBridge Data",
+        "client_contact": [
+            {
+               "email_address": "info@skybridgedata.br",
+               "phone_number": "+55-11-9847-5567"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 1456,
+                "street_name": "Rua Augusta",
+                "city": "São Paulo",
+                "state": "South Playmonth",
+                "postcode": "01305-000",
+                "country": "Brazil"
+            }
+        ],
+        "password": "pass@800"
+    },
+    {
+        "_id": "cli00000015",
+        "client_name": "QuantumCore Systems",
+        "client_contact": [
+            {
+               "email_address": "support@quantumcore.de",
+               "phone_number": "+49-30-4505-6709"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Unter den Linden",
+                "city": "Berlin",
+                "state": "Berlin",
+                "postcode": 10117,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@801"
+    },
+    {
+        "_id": "cli00000016",
+        "client_name": "ArcticCloud Hosting",
+        "client_contact": [
+            {
+               "email_address": "contact@arcticcloud.no",
+               "phone_number": "+47-21-345-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Kirkegata",
+                "city": "Oslo",
+                "state": "Oslo",
+                "postcode": 153,
+                "country": "Norway"
+            }
+        ],
+        "password": "pass@802"
+    },
+    {
+        "_id": "cli00000017",
+        "client_name": "GigaDrive Cloud",
+        "client_contact": [
+            {
+               "email_address": "sales@gigadrivecloud.es",
+               "phone_number": "+34-91-876-3345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Calle de Serrano",
+                "city": "Madrid",
+                "state": "Madrid",
+                "postcode": 28001,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@803"
+    },
+    {
+        "_id": "cli00000018",
+        "client_name": "AtlasCloud Networks",
+        "client_contact": [
+            {
+               "email_address": "info@atlascloud.ca",
+               "phone_number": "+1-514-789-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Rue Sainte-Catherine",
+                "city": "Montreal",
+                "state": "QC",
+                "postcode": "H2X 1Z9",
+                "country": "Canada"
+            }
+        ],
+        "password": "pass@804"
+    },
+    {
+        "_id": "cli00000019",
+        "client_name": "TechNova Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@technovahosting.co.za",
+               "phone_number": "+27-11-892-4578"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Nelson Mandela Ave",
+                "city": "Johannesburg",
+                "state": "Johannesburg",
+                "postcode": 2001,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@805"
+    },
+    {
+        "_id": "cli00000020",
+        "client_name": "CosmicEdge Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@cosmicedge.be",
+               "phone_number": "+32-2-678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Rue Belliard",
+                "city": "Brussels",
+                "state": "Brussels",
+                "postcode": 1000,
+                "country": "Belgium"
+            }
+        ],
+        "password": "pass@806"
+    },
+    {
+        "_id": "cli00000021",
+        "client_name": "CloudMinds Global",
+        "client_contact": [
+            {
+               "email_address": "support@cloudminds.sg",
+               "phone_number": "+65-6223-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 20,
+                "street_name": "Cecil St",
+                "city": "Singapore",
+                "state": "Singapore",
+                "postcode": 49705,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@807"
+    },
+    {
+        "_id": "cli00000022",
+        "client_name": "EverestCloud Solutions",
+        "client_contact": [
+            {
+               "email_address": "info@everestcloud.ch",
+               "phone_number": "+41-22-987-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Rue du Rhône",
+                "city": "Geneva",
+                "state": "Geneva",
+                "postcode": 1204,
+                "country": "Switzerland"
+            }
+        ],
+        "password": "pass@808"
+    },
+    {
+        "_id": "cli00000023",
+        "client_name": "CoreLink Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@corelink.cn",
+               "phone_number": "+86-10-6345-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Dongzhimen St",
+                "city": "Beijing",
+                "state": "Beijing",
+                "postcode": 100027,
+                "country": "China"
+            }
+        ],
+        "password": "pass@809"
+    },
+    {
+        "_id": "cli00000024",
+        "client_name": "FusionCloud Networks",
+        "client_contact": [
+            {
+               "email_address": "sales@fusioncloudnetworks.com",
+               "phone_number": "+1-917-678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 789,
+                "street_name": "Broadway",
+                "city": "New York",
+                "state": "New York",
+                "postcode": 10003,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@810"
+    },
+    {
+        "_id": "cli00000025",
+        "client_name": "Hyperion Cloud Services",
+        "client_contact": [
+            {
+               "email_address": "info@hyperioncloud.ie",
+               "phone_number": "+353-1-789-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 20,
+                "street_name": "O’Connell St",
+                "city": "Dublin",
+                "state": "Dublin",
+                "postcode": "D01 XK83",
+                "country": "Ireland"
+            }
+        ],
+        "password": "pass@811"
+    },
+    {
+        "_id": "cli00000026",
+        "client_name": "DataSky Hosting",
+        "client_contact": [
+            {
+               "email_address": "contact@dataskyhosting.com.au",
+               "phone_number": "+61-8-9089-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 15,
+                "street_name": "Hay St",
+                "city": "Perth",
+                "state": "Western Australia",
+                "postcode": 6000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@812"
+    },
+    {
+        "_id": "cli00000027",
+        "client_name": "NovaStack Technologies",
+        "client_contact": [
+            {
+               "email_address": "support@novastack.jp",
+               "phone_number": "+81-6-6578-9876 "
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": "1-9-1",
+                "street_name": "Marunouchi",
+                "city": "Chiyoda City",
+                "state": "Tokyo",
+                "postcode": "100-0005",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@813"
+    },
+    {
+        "_id": "cli00000028",
+        "client_name": "AeroHost Global",
+        "client_contact": [
+            {
+               "email_address": "info@aerohost.fr",
+               "phone_number": "+33-1-7654-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 89,
+                "street_name": "Avenue des Champs-Élysées",
+                "city": "Paris",
+                "state": "Paris",
+                "postcode": 75008,
+                "country": "France"
+            }
+        ],
+        "password": "pass@814"
+    },
+    {
+        "_id": "cli00000029",
+        "client_name": "CloudPort Systems",
+        "client_contact": [
+            {
+               "email_address": "support@cloudport.co.za",
+               "phone_number": "+27-31-879-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Durban St",
+                "city": "Durban",
+                "state": "Durban",
+                "postcode": 4001,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@815"
+    },
+    {
+        "_id": "cli00000030",
+        "client_name": "ZenCloud Networks",
+        "client_contact": [
+            {
+               "email_address": "info@zencloud.my",
+               "phone_number": "+60-3-7890-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Jalan Ampang",
+                "city": "Kuala Lumpur",
+                "state": "Kuala Lumpur",
+                "postcode": 50450,
+                "country": "Malaysia"
+            }
+        ],
+        "password": "pass@816"
+    },
+    {
+        "_id": "cli00000031",
+        "client_name": "SkyLan Hosting",
+        "client_contact": [
+            {
+               "email_address": "contact@skylan.it",
+               "phone_number": "+39-06-2345-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 4,
+                "street_name": "Via della Conciliazione",
+                "city": "Rome",
+                "state": "Rome",
+                "postcode": 193,
+                "country": "Italy"
+            }
+        ],
+        "password": "pass@817"
+    },
+    {
+        "_id": "cli00000032",
+        "client_name": "GigaSphere Technologies",
+        "client_contact": [
+            {
+               "email_address": "info@gigaspheretechnologies.com.tr",
+               "phone_number": "+90-212-456-7890"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Taksim Sq",
+                "city": "Istanbul",
+                "state": "Istanbul",
+                "postcode": 34437,
+                "country": "Turkey"
+            }
+        ],
+        "password": "pass@818"
+    },
+    {
+        "_id": "cli00000033",
+        "client_name": "NimbusLink Cloud",
+        "client_contact": [
+            {
+               "email_address": "support@nimbuslink.in",
+               "phone_number": "+91-40-7896-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Jubilee Hills",
+                "city": "Hyderabad",
+                "state": "Telangana",
+                "postcode": 500033,
+                "country": "India"
+            }
+        ],
+        "password": "pass@819"
+    },
+    {
+        "_id": "cli00000034",
+        "client_name": "CloudTrack Systems",
+        "client_contact": [
+            {
+               "email_address": "info@cloudtrack.co.th",
+               "phone_number": "+66-2-123-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Silom Rd",
+                "city": "Bangkok",
+                "state": "Bangkok",
+                "postcode": 10500,
+                "country": "Thailand"
+            }
+        ],
+        "password": "pass@820"
+    },
+    {
+        "_id": "cli00000035",
+        "client_name": "EchoNet Hosting",
+        "client_contact": [
+            {
+               "email_address": "contact@echonet.es",
+               "phone_number": "+34-93-234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Carrer de Balmes",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "postcode": 8007,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@821"
+    },
+    {
+        "_id": "cli00000036",
+        "client_name": "DataHub Services",
+        "client_contact": [
+            {
+               "email_address": "info@datahub.ru",
+               "phone_number": "+7-495-456-7890"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Tverskaya St",
+                "city": "Moscow",
+                "state": "Moscow",
+                "postcode": 125009,
+                "country": "Russia"
+            }
+        ],
+        "password": "pass@822"
+    },
+    {
+        "_id": "cli00000037",
+        "client_name": "LynxCloud Technologies",
+        "client_contact": [
+            {
+               "email_address": "support@lynxcloud.com.au",
+               "phone_number": "+61-7-9876-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Wickham St",
+                "city": "Brisbane",
+                "state": "Queensland",
+                "postcode": 4000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@823"
+    },
+    {
+        "_id": "cli00000038",
+        "client_name": "VortexNet Global",
+        "client_contact": [
+            {
+               "email_address": "info@vortexnet.co.uk",
+               "phone_number": "+44-131-456-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Princes St",
+                "city": "Edinburgh",
+                "state": "Edinburgh",
+                "postcode": "EH2 2DG",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@824"
+    },
+    {
+        "_id": "cli00000039",
+        "client_name": "HyperCore Networks",
+        "client_contact": [
+            {
+               "email_address": "support@hypercorenetworks.ch",
+               "phone_number": "+41-44-123-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Bahnhofstrasse",
+                "city": "Zurich",
+                "state": "Zurich",
+                "postcode": 8001,
+                "country": "Switzerland"
+            }
+        ],
+        "password": "pass@825"
+    },
+    {
+        "_id": "cli00000040",
+        "client_name": "CometCloud Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@cometcloud.de",
+               "phone_number": "+49-89-5678-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Leopoldstrasse",
+                "city": "Munich",
+                "state": "Munich",
+                "postcode": 80802,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@826"
+    },
+    {
+        "_id": "cli00000041",
+        "client_name": "SkySphere Global",
+        "client_contact": [
+            {
+               "email_address": "support@skysphere.com.au",
+               "phone_number": "+61-3-1234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Collins St",
+                "city": "Melbourne",
+                "state": "Victoria",
+                "postcode": 3000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@827"
+    },
+    {
+        "_id": "cli00000042",
+        "client_name": "GlobeLink Systems",
+        "client_contact": [
+            {
+               "email_address": "info@globelink.sg",
+               "phone_number": "+65-6221-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 30,
+                "street_name": "Raffles Place",
+                "city": "Singapore",
+                "state": "Singapore",
+                "postcode": 48623,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@828"
+    },
+    {
+        "_id": "cli00000043",
+        "client_name": "TechBridge Hosting",
+        "client_contact": [
+            {
+               "email_address": "contact@techbridge.com.br",
+               "phone_number": "+55-21-3456-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Av. Rio Branco",
+                "city": "Rio de Janeiro",
+                "state": "Rio de Janeiro",
+                "postcode": "20090-003",
+                "country": "Brazil"
+            }
+        ],
+        "password": "pass@829"
+    },
+    {
+        "_id": "cli00000044",
+        "client_name": "ZenithSphere Technologies",
+        "client_contact": [
+            {
+               "email_address": "support@zenithsphere.ca",
+               "phone_number": "+1-416-987-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 456,
+                "street_name": "Yonge St",
+                "city": "Toronto",
+                "state": "Toronto",
+                "postcode": "ON M4W 2H1",
+                "country": "Canada"
+            }
+        ],
+        "password": "pass@830"
+    },
+    {
+        "_id": "cli00000045",
+        "client_name": "CloudArch Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@cloudarch.jp",
+               "phone_number": "+81-3-1234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Shinjuku",
+                "city": "Shinjuku-ku",
+                "state": "Tokyo",
+                "postcode": "160-0022",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@831"
+    },
+    {
+        "_id": "cli00000046",
+        "client_name": "HyperNova Cloud",
+        "client_contact": [
+            {
+               "email_address": "info@hypernovacloud.in",
+               "phone_number": "+91-22-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 89,
+                "street_name": "Colaba Causeway",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "postcode": 400001,
+                "country": "India"
+            }
+        ],
+        "password": "pass@832"
+    },
+    {
+        "_id": "cli00000047",
+        "client_name": "DataWave Systems",
+        "client_contact": [
+            {
+               "email_address": "support@datawave.es",
+               "phone_number": "+34-91-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Calle de Alcalá",
+                "city": "Madrid",
+                "state": "Madrid",
+                "postcode": 28014,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@833"
+    },
+    {
+        "_id": "cli00000048",
+        "client_name": "SkyLine Global",
+        "client_contact": [
+            {
+               "email_address": "info@skylineglobal.co.uk",
+               "phone_number": "+44-20-7896-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Fleet St",
+                "city": "London",
+                "state": "London",
+                "postcode": "EC4Y 1AA",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@834"
+    },
+    {
+        "_id": "cli00000049",
+        "client_name": "NebulaTech Solutions",
+        "client_contact": [
+            {
+               "email_address": "support@nebulasolutions.nl",
+               "phone_number": "+31-20-234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Damrak",
+                "city": "Amsterdam",
+                "state": "Amsterdam",
+                "postcode": "1012 LG",
+                "country": "Netherlands"
+            }
+        ],
+        "password": "pass@835"
+    },
+    {
+        "_id": "cli00000050",
+        "client_name": "FusionCloud Systems",
+        "client_contact": [
+            {
+               "email_address": "info@fusioncloud.fr",
+               "phone_number": "+33-1-5678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Rue de la Paix",
+                "city": "Paris",
+                "state": "Paris",
+                "postcode": 75002,
+                "country": "France"
+            }
+        ],
+        "password": "pass@836"
+    },
+    {
+        "_id": "cli00000051",
+        "client_name": "CloudEdge Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@cloudedge.cn",
+               "phone_number": "+86-10-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 67,
+                "street_name": "Wangfujing",
+                "city": "Beijing",
+                "state": "Beijing",
+                "postcode": 100006,
+                "country": "China"
+            }
+        ],
+        "password": "pass@837"
+    },
+    {
+        "_id": "cli00000052",
+        "client_name": "SkyLink Data Systems",
+        "client_contact": [
+            {
+               "email_address": "info@skylinkdata.my",
+               "phone_number": "+60-3-5678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Jalan Bukit Bintang",
+                "city": "Kuala Lumpur",
+                "state": "Kuala Lumpur",
+                "postcode": 55100,
+                "country": "Malaysia"
+            }
+        ],
+        "password": "pass@838"
+    },
+    {
+        "_id": "cli00000053",
+        "client_name": "QuantumSphere Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@quantumsphere.co.za",
+               "phone_number": "+27-21-789-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Bree St",
+                "city": "Cape Town",
+                "state": "Cape Town",
+                "postcode": 8000,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@839"
+    },
+    {
+        "_id": "cli00000054",
+        "client_name": "TechNova Networks",
+        "client_contact": [
+            {
+               "email_address": "info@technovanetworks.sg",
+               "phone_number": "+65-6234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 10,
+                "street_name": "Marina Blvd",
+                "city": "Singapore",
+                "state": "Singapore",
+                "postcode": 18983,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@840"
+    },
+    {
+        "_id": "cli00000055",
+        "client_name": "CloudStream Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@cloudstream.com.au",
+               "phone_number": "+61-2-5678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Pitt St",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "postcode": 2000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@841"
+    },
+    {
+        "_id": "cli00000056",
+        "client_name": "OrbitData Global",
+        "client_contact": [
+            {
+               "email_address": "info@orbitdata.com",
+               "phone_number": "+1-646-987-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 789,
+                "street_name": "Madison Ave",
+                "city": "New York",
+                "state": "New York",
+                "postcode": 10065,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@842"
+    },
+    {
+        "_id": "cli00000057",
+        "client_name": "DataLink Solutions",
+        "client_contact": [
+            {
+               "email_address": "support@datalink.de",
+               "phone_number": "+49-69-7896-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Zeil",
+                "city": "Frankfurt",
+                "state": "Frankfurt",
+                "postcode": 60313,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@843"
+    },
+    {
+        "_id": "cli00000058",
+        "client_name": "SkyNet Infrastructure",
+        "client_contact": [
+            {
+               "email_address": "info@skynetinfra.jp",
+               "phone_number": "+81-6-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Nakanoshima",
+                "city": "Kita-ku",
+                "state": "Osaka",
+                "postcode": "530-0005",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@844"
+    },
+    {
+        "_id": "cli00000059",
+        "client_name": "CloudWave Systems",
+        "client_contact": [
+            {
+               "email_address": "support@cloudwavesystems.co.uk",
+               "phone_number": "+44-151-123-9876"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Castle St",
+                "city": "Liverpool",
+                "state": "Liverpool",
+                "postcode": "L2 7LQ",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@845"
+    },
+    {
+        "_id": "cli00000060",
+        "client_name": "NimbusCore Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@nimbuscore.com.au",
+               "phone_number": "+61-8-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "St Georges Terrace",
+                "city": "Perth",
+                "state": "Western Australia",
+                "postcode": 6000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@846"
+    },
+    {
+        "_id": "cli00000061",
+        "client_name": "ApexCloud Global",
+        "client_contact": [
+            {
+               "email_address": "support@apexcloud.com.br",
+               "phone_number": "+55-11-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Avenida Paulista",
+                "city": "São Paulo",
+                "state": "South Playmonth",
+                "postcode": "01310-100",
+                "country": "Brazil"
+            }
+        ],
+        "password": "pass@847"
+    },
+    {
+        "_id": "cli00000062",
+        "client_name": "FusionData Hosting",
+        "client_contact": [
+            {
+               "email_address": "info@fusiondata.my",
+               "phone_number": "+60-3-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Jalan Raja Chulan",
+                "city": "Kuala Lumpur",
+                "state": "Kuala Lumpur",
+                "postcode": 50200,
+                "country": "Malaysia"
+            }
+        ],
+        "password": "pass@848"
+    },
+    {
+        "_id": "cli00000063",
+        "client_name": "SkyLink Hosting",
+        "client_contact": [
+            {
+               "email_address": "support@skylinkhosting.co.nz",
+               "phone_number": "+64-9-987-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Queen St",
+                "city": "Auckland",
+                "state": "Auckland",
+                "postcode": 1010,
+                "country": "New Zealand"
+            }
+        ],
+        "password": "pass@849"
+    },
+    {
+        "_id": "cli00000064",
+        "client_name": "ZenithCore Systems",
+        "client_contact": [
+            {
+               "email_address": "info@zenithcore.ca",
+               "phone_number": "+1-514-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 456,
+                "street_name": "Rue St-Denis",
+                "city": "Montreal",
+                "state": "QC",
+                "postcode": "H2X 3K7",
+                "country": "Canada"
+            }
+        ],
+        "password": "pass@850"
+    },
+    {
+        "_id": "cli00000065",
+        "client_name": "VortexSphere Cloud",
+        "client_contact": [
+            {
+                "email_address": "support@vortexsphere.cn",
+                "phone_number": "+86-21-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 34,
+                "street_name": "Nanjing Road",
+                "city": "Shanghai",
+                "state": "Shanghai",
+                "postcode": 200002,
+                "country": "China"
+            }
+        ],
+        "password": "pass@851"
+    },
+    {
+        "_id": "cli00000066",
+        "client_name": "DataPulse Systems",
+        "client_contact": [
+            {
+                "email_address": "info@datapulse.fr",
+                "phone_number": "+33-4-5678-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Rue de Lyon",
+                "city": "Marseille",
+                "state": "Marseille",
+                "postcode": 13002,
+                "country": "France"
+            }
+        ],
+        "password": "pass@852"
+    },
+    {
+        "_id": "cli00000067",
+        "client_name": "NimbusStream Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@nimbusstream.in",
+                "phone_number": "+91-44-9876-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 67,
+                "street_name": "Anna Salai",
+                "city": "Chennai",
+                "state": "Tamil Nadu",
+                "postcode": 600002,
+                "country": "India"
+            }
+        ],
+        "password": "pass@853"
+    },
+    {
+        "_id": "cli00000068",
+        "client_name": "QuantumDrive Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@quantumdrive.es",
+                "phone_number": "+34-93-5678-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 89,
+                "street_name": "Passeig de Gràcia",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "postcode": 8008,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@854"
+    },
+    {
+        "_id": "cli00000069",
+        "client_name": "SkyNet Services",
+        "client_contact": [
+            {
+                "email_address": "contact@skynetservices.com",
+                "phone_number": "+1-312-5678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 123,
+                "street_name": "Michigan Ave",
+                "city": "Chicago",
+                "state": "Illions",
+                "postcode": 60601,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@855"
+    },
+    {
+        "_id": "cli00000070",
+        "client_name": "CloudBridge Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@cloudbridge.sg",
+                "phone_number": "+65-6789-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Orchard Rd",
+                "city": "Singapore",
+                "state": "Singapore",
+                "postcode": 238872,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@856"
+    },
+    {
+        "_id": "cli00000071",
+        "client_name": "NovaSphere Technologies",
+        "client_contact": [
+            {
+                "email_address": "support@novasphere.de",
+                "phone_number": "+49-40-5678-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Jungfernstieg",
+                "city": "Hamburg",
+                "state": "Hamburg",
+                "postcode": 20354,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@857"
+    },
+    {
+        "_id": "cli00000072",
+        "client_name": "SkyEdge Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@skyedge.in",
+                "phone_number": "+91-80-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 89,
+                "street_name": "Brigade Rd",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "postcode": 560001,
+                "country": "India"
+            }
+        ],
+        "password": "pass@858"
+    },
+    {
+        "_id": "cli00000073",
+        "client_name": "VortexNet Global",
+        "client_contact": [
+            {
+                "email_address": "support@vortexnet.nl",
+                "phone_number": "+31-20-9876-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Herengracht",
+                "city": "Amsterdam",
+                "state": "BA",
+                "postcode": 1015,
+                "country": "Netherlands"
+            }
+        ],
+        "password": "pass@859"
+    },
+    {
+        "_id": "cli00000074",
+        "client_name": "TechFusion Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@techfusion.jp",
+                "phone_number": "+81-6-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Dotonbori",
+                "city": "Chuo-ku",
+                "state": "Osaka",
+                "postcode": "542-0071",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@860"
+    },
+    {
+        "_id": "cli00000075",
+        "client_name": "HyperLink Systems",
+        "client_contact": [
+            {
+                "email_address": "info@hyperlinksystems.co.uk",
+                "phone_number": "+44-141-234-5678"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Sauchiehall St",
+                "city": "Glasgow",
+                "state": "Edinburg",
+                "postcode": "G2 3DH",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@861"
+    },
+    {
+        "_id": "cli00000076",
+        "client_name": "CloudPulse Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@cloudpulse.fr",
+                "phone_number": "+33-1-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 34,
+                "street_name": "Rue de Rivoli",
+                "city": "Paris",
+                "state": "Paris",
+                "postcode": 75004,
+                "country": "France"
+            }
+        ],
+        "password": "pass@862"
+    },
+    {
+        "_id": "cli00000077",
+        "client_name": "NovaTech Solutions",
+        "client_contact": [
+            {
+                "email_address": "contact@novatechsolutions.com",
+                "phone_number": "+1-619-987-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 678,
+                "street_name": "Harbor Dr",
+                "city": "San Diego",
+                "state": "California",
+                "postcode": 92101,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@863"
+    },
+    {
+        "_id": "cli00000078",
+        "client_name": "SkyData Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@skydata.co.th",
+                "phone_number": "+66-2-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Sukhumvit Rd",
+                "city": "Bangkok",
+                "state": "Bangkok",
+                "postcode": 101,
+                "country": "Thailand"
+            }
+        ],
+        "password": "pass@864"
+    },
+    {
+        "_id": "cli00000079",
+        "client_name": "CloudSync Systems",
+        "client_contact": [
+            {
+                "email_address": "support@cloudsync.co.uk",
+                "phone_number": "+44-20-9876-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Oxford St",
+                "city": "London",
+                "state": "London",
+                "postcode": "W1D 1LJ",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@865"
+    },
+    {
+        "_id": "cli00000080",
+        "client_name": "ZenithLink Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@zenithlink.sg",
+                "phone_number": "+65-6789-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "Marina Bay",
+                "city": "Sands",
+                "state": "Singapore",
+                "postcode": 18956,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@866"
+    },
+    {
+        "_id": "cli00000081",
+        "client_name": "DataTrack Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@datatrackhosting.com",
+                "phone_number": "+1-650-987-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "University Ave",
+                "city": "Palo Alto",
+                "state": "California",
+                "postcode": 94301,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@867"
+    },
+    {
+        "_id": "cli00000082",
+        "client_name": "DataTrack Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@cloudsphere.de",
+                "phone_number": "+49-30-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Potsdamer Platz",
+                "city": "Berlin",
+                "state": "Berlin",
+                "postcode": 10785,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@868"
+    },
+    {
+        "_id": "cli00000083",
+        "client_name": "VortexCloud Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@vortexcloud.es",
+                "phone_number": "+34-93-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "La Rambla",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "postcode": 8002,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@869"
+    },
+    {
+        "_id": "cli00000084",
+        "client_name": "NovaEdge Systems",
+        "client_contact": [
+            {
+                "email_address": "info@novaedge.in",
+                "phone_number": "+91-22-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 67,
+                "street_name": "Pali Hill",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "postcode": 400050,
+                "country": "India"
+            }
+        ],
+        "password": "pass@870"
+    },
+    {
+        "_id": "cli00000085",
+        "client_name": "CloudNova Hosting",
+        "client_contact": [
+            {
+                "email_address": "contact@cloudnova.com.au",
+                "phone_number": "+61-2-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 12,
+                "street_name": "George St",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "postcode": 2000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@871"
+    },
+    {
+        "_id": "cli00000086",
+        "client_name": "HyperSphere Global",
+        "client_contact": [
+            {
+                "email_address": "support@hypersphere.co.za",
+                "phone_number": "+27-21-9876-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 34,
+                "street_name": "Adderley St",
+                "city": "Cape Town",
+                "state": "Cape Town",
+                "postcode": 8000,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@872"
+    },
+    {
+        "_id": "cli00000087",
+        "client_name": "DataCloud Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@datacloud.jp",
+                "phone_number": "+81-3-7890-1234"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 78,
+                "street_name": "Akihabara",
+                "city": "Chiyoda City",
+                "state": "Tokyo",
+                "postcode": "101-0021",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@873"
+    },
+    {
+        "_id": "cli00000088",
+        "client_name": "NimbusEdge Global",
+        "client_contact": [
+            {
+                "email_address": "support@nimbusedge.fr",
+                "phone_number": "+33-1-9876-2345"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 23,
+                "street_name": "Rue Saint-Honoré",
+                "city": "Paris",
+                "state": "Paris",
+                "postcode": 75001,
+                "country": "France"
+            }
+        ],
+        "password": "pass@874"
+    },
+    {
+        "_id": "cli00000089",
+        "client_name": "SkyTrack Technologies",
+        "client_contact": [
+            {
+                "email_address": "info@skytracktech.co.uk",
+                "phone_number": "+44-121-2345-6789"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "Colmore Row",
+                "city": "Birmingham",
+                "state": "Birmingham",
+                "postcode": "B3 2BS",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@875"
+    },
+    {
+        "_id": "cli00000090",
+        "client_name": "Vista Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@vista.co.th",
+                "phone_number": "+66-2-2345-2874"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 49,
+                "street_name": "Coomba Rd",
+                "city": "Bangkok",
+                "state": "Bangkok",
+                "postcode": 120,
+                "country": "Thailand"
+            }
+        ],
+        "password": "pass@876"
+    },
+    {
+        "_id": "cli00000091",
+        "client_name": "Network Systems",
+        "client_contact": [
+            {
+                "email_address": "support@net.co.uk",
+                "phone_number": "+44-20-9876-0953"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 56,
+                "street_name": "Dickson St",
+                "city": "London",
+                "state": "London",
+                "postcode": "W1D 1AZ",
+                "country": "United Kingdom"
+            }
+        ],
+        "password": "pass@877"
+    },
+    {
+        "_id": "cli00000092",
+        "client_name": "Upink Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@uplink.sg",
+                "phone_number": "+65-6789-6421"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 60,
+                "street_name": "Adria Bay",
+                "city": "Sands",
+                "state": "Singapore",
+                "postcode": 18924,
+                "country": "Singapore"
+            }
+        ],
+        "password": "pass@878"
+    },
+    {
+        "_id": "cli00000093",
+        "client_name": "OneCloud Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@onecloud.com",
+                "phone_number": "+1-650-987-7453"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 58,
+                "street_name": "Chester Ave",
+                "city": "Palo Alto",
+                "state": "California",
+                "postcode": 94301,
+                "country": "USA"
+            }
+        ],
+        "password": "pass@879"
+    },
+    {
+        "_id": "cli00000094",
+        "client_name": "Horizon Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@horizon.de",
+                "phone_number": "+49-30-7890-9046"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 54,
+                "street_name": "Hitzdamer Platz",
+                "city": "Berlin",
+                "state": "Berlin",
+                "postcode": 10766,
+                "country": "Germany"
+            }
+        ],
+        "password": "pass@880"
+    },
+    {
+        "_id": "cli00000095",
+        "client_name": "Alpha Hosting",
+        "client_contact": [
+            {
+                "email_address": "support@alpha.es",
+                "phone_number": "+34-93-7890-7047"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 45,
+                "street_name": "La Somma",
+                "city": "Barcelona",
+                "state": "Barcelona",
+                "postcode": 8010,
+                "country": "Spain"
+            }
+        ],
+        "password": "pass@881"
+    },
+    {
+        "_id": "cli00000096",
+        "client_name": "Corsa Systems",
+        "client_contact": [
+            {
+                "email_address": "info@corsa.in",
+                "phone_number": "+91-22-2345-5482"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 59,
+                "street_name": "Down Hill",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "postcode": 400022,
+                "country": "India"
+            }
+        ],
+        "password": "pass@882"
+    },
+    {
+        "_id": "cli00000097",
+        "client_name": "Virtue Hosting",
+        "client_contact": [
+            {
+                "email_address": "contact@vitue.com.au",
+                "phone_number": "+61-2-2345-5629"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 47,
+                "street_name": "King St",
+                "city": "Sydney",
+                "state": "New South Wales",
+                "postcode": 2000,
+                "country": "Australia"
+            }
+        ],
+        "password": "pass@883"
+    },
+    {
+        "_id": "cli00000098",
+        "client_name": "Zenta Global",
+        "client_contact": [
+            {
+                "email_address": "support@zenta.co.za",
+                "phone_number": "+27-21-9876-2067"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 46,
+                "street_name": "Hunter St",
+                "city": "Cape Town",
+                "state": "Cape Town",
+                "postcode": 8004,
+                "country": "South Africa"
+            }
+        ],
+        "password": "pass@321"
+    },
+    {
+        "_id": "cli00000099",
+        "client_name": "Neuro Hosting",
+        "client_contact": [
+            {
+                "email_address": "info@neuro.jp",
+                "phone_number": "+81-3-7890-4629"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 60,
+                "street_name": "Akihabara",
+                "city": "Chiyoda City",
+                "state": "Tokyo",
+                "postcode": "101-0022",
+                "country": "Japan"
+            }
+        ],
+        "password": "pass@603"
+    },
+    {
+        "_id": "cli00000100",
+        "client_name": "Star Global",
+        "client_contact": [
+            {
+                "email_address": "support@star.fr",
+                "phone_number": "+33-1-9876-8035"
+            }
+        ],
+        "client_address": [
+            {
+                "street_number": 49,
+                "street_name": "Rue Saint-Marie",
+                "city": "Paris",
+                "state": "Paris",
+                "postcode": 75080,
+                "country": "France"
+            }
+        ],
+        "password": "pass@604"
+    }
+]

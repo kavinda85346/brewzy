@@ -1,0 +1,2702 @@
+[
+    {
+        "_id": "bra00000001",
+        "branch_name": "Nexart Alabama",
+        "branch_address": [
+            {
+                "street number": 50,
+                "street name": "Dexter Avenue",
+                "city": "Montgomery",
+                "state": "Alabama",
+                "postcode": 36101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "alabama@nexart.com",
+                "phone_number": "(205) 555-1234"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@100"
+    },
+    {
+        "_id": "bra00000002",
+        "branch_name": "Nexart Arizona ",
+        "branch_address": [
+            {
+                "street number": 59,
+                "street name": "Camelback Road",
+                "city": "Phoenix",
+                "state": "Arizona",
+                "postcode": 85001,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "phoenix@nexart.com",
+                "phone_number": "(480) 555-5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@110"
+    },
+    {
+        "_id": "bra00000003",
+        "branch_name": "Nexart Arkansas ",
+        "branch_address": [
+            {
+                "street number": 40,
+                "street name": "Markham Street",
+                "city": "Little Rock",
+                "state": "Arkansas",
+                "postcode": 72201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "arkansas@nexart.com",
+                "phone_number": "(501) 555-9012"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@120"
+    },
+    {
+        "_id": "bra00000004",
+        "branch_name": "Nexart California ",
+        "branch_address": [
+            {
+                "street number": 80,
+                "street name": "J Street",
+                "city": "Sacramento",
+                "state": "California",
+                "postcode": 94203,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "california@nexart.com",
+                "phone_number": "(213) 555-3456"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@130"
+    },
+    {
+        "_id": "bra00000005",
+        "branch_name": "Nexart Colorado ",
+        "branch_address": [
+            {
+                "street number": 61,
+                "street name": "Colfax Avenue",
+                "city": "Denver",
+                "state": "Colorado",
+                "postcode": 80201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "colorado@nexart.com",
+                "phone_number": "(303) 555-7890"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@140"
+    },
+    {
+        "_id": "bra00000006",
+        "branch_name": "Nexart Connecticut ",
+        "branch_address": [
+            {
+                "street number": 70,
+                "street name": "Asylum Street",
+                "city": "Hartford",
+                "state": "Connecticut",
+                "postcode": 6101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "connecticut@nexart.com",
+                "phone_number": "(203) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@150"
+    },
+    {
+        "_id": "bra00000007",
+        "branch_name": "Nexart Delaware",
+        "branch_address": [
+            {
+                "street number": 31,
+                "street name": "Loockerman Street",
+                "city": "Dover",
+                "state": "Delaware",
+                "postcode": 19901,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "delaware@nexart.com",
+                "phone_number": "(302) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@160"
+    },
+    {
+        "_id": "bra00000008",
+        "branch_name": "Nexart Florida",
+        "branch_address": [
+            {
+                "street number": 51,
+                "street name": "Monroe Street",
+                "city": "Tallahassee",
+                "state": "Florida",
+                "postcode": 32301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "florida@nexart.com",
+                "phone_number": "(305) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@170"
+    },
+    {
+        "_id": "bra00000009",
+        "branch_name": "Nexart Georgia",
+        "branch_address": [
+            {
+                "street number": 36,
+                "street name": "Peachtree Street",
+                "city": "Atlanta",
+                "state": "Georgia",
+                "postcode": 32301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "florida@nexart.com",
+                "phone_number": "(305) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@180"
+    },
+    {
+        "_id": "bra00000010",
+        "branch_name": "Nexart Idaho",
+        "branch_address": [
+            {
+                "street number": 81,
+                "street name": "Capitol Boulevard",
+                "city": "Boise",
+                "state": "Idaho",
+                "postcode": 83701,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "idaho@nexart.com",
+                "phone_number": "(208) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@190"
+    },
+    {
+        "_id": "bra00000011",
+        "branch_name": "Nexart Illinois ",
+        "branch_address": [
+            {
+                "street number": 79,
+                "street name": "Adams Street",
+                "city": "Springfield",
+                "state": "Illinois",
+                "postcode": 62701,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "illinois@nexart.com",
+                "phone_number": "(312) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@200"
+    },
+    {
+        "_id": "bra00000012",
+        "branch_name": "Nexart Indiana",
+        "branch_address": [
+            {
+                "street number": 6,
+                "street name": "Meridian Street",
+                "city": "Indianapolis",
+                "state": "Indiana",
+                "postcode": 46201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "indiana@nexart.com",
+                "phone_number": "(317) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@210"
+    },
+    {
+        "_id": "bra00000013",
+        "branch_name": "Nexart Iowa ",
+        "branch_address": [
+            {
+                "street number": 49,
+                "street name": "Grand Avenue",
+                "city": "Des Moines",
+                "state": "Iowa",
+                "postcode": 50301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "iowa@nexart.com",
+                "phone_number": "(515) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@220"
+    },
+    {
+        "_id": "bra00000014",
+        "branch_name": "Nexart Kansas ",
+        "branch_address": [
+            {
+                "street number": 95,
+                "street name": "Kansas Avenue",
+                "city": "Topeka",
+                "state": "Kansas",
+                "postcode": 66601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "kansas@nexart.com",
+                "phone_number": "(913) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@230"
+    },
+    {
+        "_id": "bra00000015",
+        "branch_name": "Nexart Kentucky ",
+        "branch_address": [
+            {
+                "street number": 70,
+                "street name": "Broadway Street",
+                "city": "Frankfort",
+                "state": "Kentucky",
+                "postcode": 40601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "kentucky@nexart.com",
+                "phone_number": "(502) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@240"
+    },
+    {
+        "_id": "bra00000016",
+        "branch_name": "Nexart Louisiana",
+        "branch_address": [
+            {
+                "street number": 93,
+                "street name": "Government Street",
+                "city": "Baton Rouge",
+                "state": "Louisiana",
+                "postcode": 70801,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "louisiana@nexart.com",
+                "phone_number": "(504) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@250"
+    },
+    {
+        "_id": "bra00000017",
+        "branch_name": "Nexart Maine ",
+        "branch_address": [
+            {
+                "street number": 43,
+                "street name": "Water Street",
+                "city": "Augusta",
+                "state": "Maine",
+                "postcode": 4330,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "maine@nexart.com",
+                "phone_number": "(207) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@260"
+    },
+    {
+        "_id": "bra00000018",
+        "branch_name": "Nexart Maryland ",
+        "branch_address": [
+            {
+                "street number": 23,
+                "street name": "Main Street",
+                "city": "Annapolis",
+                "state": "Maryland",
+                "postcode": 21401,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "maryland@nexart.com",
+                "phone_number": "(301) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@270"
+    },
+    {
+        "_id": "bra00000019",
+        "branch_name": "Nexart Massachusetts",
+        "branch_address": [
+            {
+                "street number": 31,
+                "street name": "Beacon Street",
+                "city": "Boston",
+                "state": "Massachusetts",
+                "postcode": 2101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "massachusetts@nexart.com",
+                "phone_number": "(617) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@280"
+    },
+    {
+        "_id": "bra00000020",
+        "branch_name": "Nexart Michigan",
+        "branch_address": [
+            {
+                "street number": 56,
+                "street name": "Michigan Avenue",
+                "city": "Lansing",
+                "state": "Michigan",
+                "postcode": 48901,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "michigan@nexart.com",
+                "phone_number": "(313) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@290"
+    },
+    {
+        "_id": "bra00000021",
+        "branch_name": "Nexart Minnesota ",
+        "branch_address": [
+            {
+                "street number": 63,
+                "street name": "Summit Avenue",
+                "city": "Saint Paul",
+                "state": "Minnesota",
+                "postcode": 55101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "minnesota@nexart.com",
+                "phone_number": "(612) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@300"
+    },
+    {
+        "_id": "bra00000022",
+        "branch_name": "Nexart Mississippi ",
+        "branch_address": [
+            {
+                "street number": 50,
+                "street name": "State Street",
+                "city": "Jackson",
+                "state": "Mississippi",
+                "postcode": 39201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "mississippi@nexart.com",
+                "phone_number": "(601) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@310"
+    },
+    {
+        "_id": "bra00000023",
+        "branch_name": "Nexart Missouri ",
+        "branch_address": [
+            {
+                "street number": 66,
+                "street name": "High Street",
+                "city": "Jefferson City",
+                "state": "Missouri",
+                "postcode": 65101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "missouri@nexart.com",
+                "phone_number": "(314) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@320"
+    },
+    {
+        "_id": "bra00000024",
+        "branch_name": "Nexart Montana ",
+        "branch_address": [
+            {
+                "street number": 17,
+                "street name": "Last Chance Gulch",
+                "city": "Helena",
+                "state": "Montana",
+                "postcode": 59601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "montana@nexart.com",
+                "phone_number": "(406) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@330"
+    },
+    {
+        "_id": "bra00000025",
+        "branch_name": "Nexart Nebraska",
+        "branch_address": [
+            {
+                "street number": 62,
+                "street name": "Oslo Street",
+                "city": "Lincoln",
+                "state": "Nebraska",
+                "postcode": 8501,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "nebraska@nexart.com",
+                "phone_number": "(402) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@340"
+    },
+    {
+        "_id": "bra00000026",
+        "branch_name": "Nexart Nevada ",
+        "branch_address": [
+            {
+                "street number": 2,
+                "street name": "Carson Street",
+                "city": "Carson City",
+                "state": "Nevada",
+                "postcode": 89701,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "nevada@nexart.com",
+                "phone_number": "(702) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@350"
+    },
+    {
+        "_id": "bra00000027",
+        "branch_name": "Nexart New Hampshire ",
+        "branch_address": [
+            {
+                "street number": 76,
+                "street name": "Main Street",
+                "city": "Concord",
+                "state": "New Hampshire",
+                "postcode": 3301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newhampshire@nexart.com",
+                "phone_number": "(603) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@360"
+    },
+    {
+        "_id": "bra00000028",
+        "branch_name": "Nexart New Jersey ",
+        "branch_address": [
+            {
+                "street number": 53,
+                "street name": "State Street",
+                "city": "Trenton",
+                "state": "New Jersey",
+                "postcode": 8601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newjersey@nexart.com",
+                "phone_number": "(201) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@370"
+    },
+    {
+        "_id": "bra00000029",
+        "branch_name": "Nexart New Mexico ",
+        "branch_address": [
+            {
+                "street number": 68,
+                "street name": "Canyon Road",
+                "city": "Santa Fe",
+                "state": "New Mexico",
+                "postcode": 87501,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newmexico@nexart.com",
+                "phone_number": "(505) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@380"
+    },
+    {
+        "_id": "bra00000030",
+        "branch_name": "Nexart New York ",
+        "branch_address": [
+            {
+                "street number": 87,
+                "street name": "State Street",
+                "city": "Albany",
+                "state": "New York",
+                "postcode": 12201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newyork@nexart.com",
+                "phone_number": "(212) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@390"
+    },
+    {
+        "_id": "bra00000031",
+        "branch_name": "Nexart North Carolina",
+        "branch_address": [
+            {
+                "street number": 53,
+                "street name": "Fayetteville Street",
+                "city": "Raleigh",
+                "state": "North Carolina",
+                "postcode": 27601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "northcarolina@nexart.com",
+                "phone_number": "(919) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@400"
+    },
+    {
+        "_id": "bra00000032",
+        "branch_name": "Nexart North Dakota",
+        "branch_address": [
+            {
+                "street number": 68,
+                "street name": "Main Avenue",
+                "city": "Bismarck",
+                "state": "North Dakota",
+                "postcode": 58501,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "northdakota@nexart.com",
+                "phone_number": "(701) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@410"
+    },
+    {
+        "_id": "bra00000033",
+        "branch_name": "Nexart Ohio",
+        "branch_address": [
+            {
+                "street number": 13,
+                "street name": "High Street",
+                "city": "Columbus",
+                "state": "Ohio",
+                "postcode": 43201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "ohio@nexart.com",
+                "phone_number": "(216) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@420"
+    },
+    {
+        "_id": "bra00000034",
+        "branch_name": "Nexart Oklahoma",
+        "branch_address": [
+            {
+                "street number": 97,
+                "street name": "Broadway Avenue",
+                "city": "Oklahoma City",
+                "state": "Oklahoma",
+                "postcode": 73101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "oklahoma@nexart.com",
+                "phone_number": "(405) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@430"
+    },
+    {
+        "_id": "bra00000035",
+        "branch_name": "Nexart Oregon",
+        "branch_address": [
+            {
+                "street number": 77,
+                "street name": "Liberty Street",
+                "city": "Salem",
+                "state": "Oregon",
+                "postcode": 97301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "oregon@nexart.com",
+                "phone_number": "(503) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@440"
+    },
+    {
+        "_id": "bra00000036",
+        "branch_name": "Nexart Pennsylvania",
+        "branch_address": [
+            {
+                "street number": 92,
+                "street name": "Front Street",
+                "city": "Harrisburg",
+                "state": "Pennsylvania",
+                "postcode": 17101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "pennsylvania@nexart.com",
+                "phone_number": "(215) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@450"
+    },
+    {
+        "_id": "bra00000037",
+        "branch_name": "Nexart Rhode Island",
+        "branch_address": [
+            {
+                "street number": 65,
+                "street name": "Westminster Street",
+                "city": "Providence",
+                "state": "Rhode Island",
+                "postcode": 2901,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "rhodeisland@nexart.com",
+                "phone_number": "(401) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@460"
+    },
+    {
+        "_id": "bra00000038",
+        "branch_name": "Nexart South Carolina",
+        "branch_address": [
+            {
+                "street number": 86,
+                "street name": "Main Street",
+                "city": "Columbia",
+                "state": "South Carolina",
+                "postcode": 2901,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "southcarolina@nexart.com",
+                "phone_number": "(803) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@470"
+    },
+    {
+        "_id": "bra00000039",
+        "branch_name": "Nexart South Dakota",
+        "branch_address": [
+            {
+                "street number": 61,
+                "street name": "Capitol Avenue",
+                "city": "Pierre",
+                "state": "South Dakota",
+                "postcode": 57501,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "southdakota@nexart.com",
+                "phone_number": "(605) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@480"
+    },
+    {
+        "_id": "bra00000040",
+        "branch_name": "Nexart Tennessee",
+        "branch_address": [
+            {
+                "street number": 61,
+                "street name": "Broadway",
+                "city": "Nashville",
+                "state": "Tennessee",
+                "postcode": 37201,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "tennessee@nexart.com",
+                "phone_number": "(615) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@490"
+    },
+    {
+        "_id": "bra00000041",
+        "branch_name": "Nexart Texas",
+        "branch_address": [
+            {
+                "street number": 10,
+                "street name": "Congress Avenue",
+                "city": "Austin",
+                "state": "Texas",
+                "postcode": 73301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "texas@nexart.com",
+                "phone_number": "(214) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@500"
+    },
+    {
+        "_id": "bra00000042",
+        "branch_name": "Nexart Utah",
+        "branch_address": [
+            {
+                "street number": 32,
+                "street name": "State Street",
+                "city": "Salt Lake City",
+                "state": "Utah",
+                "postcode": 84101,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "utah@nexart.com",
+                "phone_number": "(801) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@510"
+    },
+    {
+        "_id": "bra00000043",
+        "branch_name": "Nexart Vermont",
+        "branch_address": [
+            {
+                "street number": 63,
+                "street name": "State Street",
+                "city": "Montpelier",
+                "state": "Vermont",
+                "postcode": 5601,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "vermont@nexart.com",
+                "phone_number": "(802) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@520"
+    },
+    {
+        "_id": "bra00000044",
+        "branch_name": "Nexart Virginia",
+        "branch_address": [
+            {
+                "street number": 51,
+                "street name": "Broad Street",
+                "city": "Richmond",
+                "state": "Virginia",
+                "postcode": 23218,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "virginia@nexart.com",
+                "phone_number": "(703) 555-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@530"
+    },
+    {
+        "_id": "bra00000045",
+        "branch_name": "Nexart Washington",
+        "branch_address": [
+            {
+                "street number": 61,
+                "street name": "Capitol Way",
+                "city": "Olympia",
+                "state": "Washington",
+                "postcode": 9850,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "washington@nexart.com",
+                "phone_number": "(206) 555-8901"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@540"
+    },
+    {
+        "_id": "bra00000046",
+        "branch_name": "Nexart West Virginia",
+        "branch_address": [
+            {
+                "street number": 99,
+                "street name": "Kanawha Boulevard",
+                "city": "Charleston",
+                "state": "West Virginia",
+                "postcode": 25301,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "westvirginia@nexart.com",
+                "phone_number": "(304) 555-2345"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@550"
+    },
+    {
+        "_id": "bra00000047",
+        "branch_name": "Nexart Wisconsin",
+        "branch_address": [
+            {
+                "street number": 59,
+                "street name": "State Street",
+                "city": "Madison",
+                "state": "Wisconsin",
+                "postcode": 53701,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "wisconsin@nexart.com",
+                "phone_number": "(414) 555-6789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@560"
+    },
+    {
+        "_id": "bra00000048",
+        "branch_name": "Nexart Wyoming",
+        "branch_address": [
+            {
+                "street number": 79,
+                "street name": "Capitol Avenue",
+                "city": "Cheyenne",
+                "state": "Wyoming",
+                "postcode": 82001,
+                "country": "USA"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "wyoming@nexart.com",
+                "phone_number": "(307) 555-0123"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@570"
+    },
+    {
+        "_id": "bra00000049",
+        "branch_name": "Nexart Brasília",
+        "branch_address": [
+            {
+                "street number": 14,
+                "street name": "Barbosa Aguiar",
+                "city": "Lins",
+                "state": "São Paulo",
+                "postcode": "16402-755",
+                "country": "Brazil"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "brasília@nexart.com",
+                "phone_number": "+55 11 5555-1234"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@580"
+    },
+    {
+        "_id": "bra00000050",
+        "branch_name": "Nexart Paris",
+        "branch_address": [
+            {
+                "street number": 10,
+                "street name": "Rue Bonnet",
+                "city": "Wattrelos",
+                "state": "Nord-Pas-de-Calais",
+                "postcode": 59150,
+                "country": "France"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "paris@nexart.com",
+                "phone_number": "+33 1 23 45 67 89"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@590"
+    },
+    {
+        "_id": "bra00000051",
+        "branch_name": "Nexart Berlin",
+        "branch_address": [
+            {
+                "street number": 73,
+                "street name": "Boxhagener Str",
+                "city": "Hoheluft-ost",
+                "state": "Hamburg",
+                "postcode": 20251,
+                "country": "Germany"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "berlin@nexart.com",
+                "phone_number": "+49 30 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@600"
+    },
+    {
+        "_id": "bra00000052",
+        "branch_name": "Nexart New Delhi",
+        "branch_address": [
+            {
+                "street number": 39,
+                "street name": "Engineer Enclave",
+                "city": "Delhi",
+                "state": "Delhi",
+                "postcode": 110034,
+                "country": "India"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newdelhi@nexart.com",
+                "phone_number": "+91 22 23456789"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@610"
+    },
+    {
+        "_id": "bra00000053",
+        "branch_name": "Nexart Tokyo",
+        "branch_address": [
+            {
+                "street number": 49,
+                "street name": "Shiba-koen",
+                "city": "Minato-ku",
+                "state": "Tokyo",
+                "postcode": "105-0011",
+                "country": "Japan"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "tokyo@nexart.com",
+                "phone_number": "+81 3-1234-5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@620"
+    },
+    {
+        "_id": "bra00000054",
+        "branch_name": "Nexart Mexico City",
+        "branch_address": [
+            {
+                "street number": 58,
+                "street name": "Calle de la Amargura",
+                "city": "Ciudad de México",
+                "state": "CDMX",
+                "postcode": 1000,
+                "country": "Mexcico"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "mexicocity@nexart.com",
+                "phone_number": "+52 55 1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@630"
+    },
+    {
+        "_id": "bra00000055",
+        "branch_name": "Nexart Moscow",
+        "branch_address": [
+            {
+                "street number": 83,
+                "street name": "Moscow",
+                "city": "Ulitsa Tverskaya",
+                "state": "Oblast",
+                "postcode": 125009,
+                "country": "Russia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "moscow@nexart.com",
+                "phone_number": "+7 495 123-45-67"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@640"
+    },
+    {
+        "_id": "bra00000056",
+        "branch_name": "Nexart Cape Town",
+        "branch_address": [
+            {
+                "street number": 54,
+                "street name": "Main Road",
+                "city": "Cape Town",
+                "state": "Western Cape",
+                "postcode": 8001,
+                "country": "South Africa"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "capetown@nexart.com",
+                "phone_number": "+27 11 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@650"
+    },
+    {
+        "_id": "bra00000057",
+        "branch_name": "Nexart London",
+        "branch_address": [
+            {
+                "street number": 91,
+                "street name": "Baker Street",
+                "city": "London",
+                "state": "Greater London",
+                "postcode": "NW1 6XE",
+                "country": "England"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "london@nexart.com",
+                "phone_number": "+44 20 1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@660"
+    },
+    {
+        "_id": "bra00000058",
+        "branch_name": "Nexart Nairobi",
+        "branch_address": [
+            {
+                "street number": 2,
+                "street name": "Kenyatta Avenue",
+                "city": "Nairobi",
+                "state": "Nairobi County",
+                "postcode": 100,
+                "country": "Kenya"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "nairobi@nexart.com",
+                "phone_number": "+254 20 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@670"
+    },
+    {
+        "_id": "bra00000059",
+        "branch_name": "Nexart Buenos Aires",
+        "branch_address": [
+            {
+                "street number": 97,
+                "street name": "Avenida Corrientes",
+                "city": "Buenos Aires",
+                "state": "Buenos Aires",
+                "postcode": "C1043AAX",
+                "country": "Argentina"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "buenosaires@nexart.com",
+                "phone_number": "+54 11 1234-5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@680"
+    },
+    {
+        "_id": "bra00000060",
+        "branch_name": "Nexart Brussels",
+        "branch_address": [
+            {
+                "street number": 70,
+                "street name": "Rue de la Loi",
+                "city": "Brussels",
+                "state": "Brussels-Capital",
+                "postcode": 1040,
+                "country": "Belgium"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "brussels@nexart.com",
+                "phone_number": "+32 2 123 45 67"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@690"
+    },
+    {
+        "_id": "bra00000061",
+        "branch_name": "Nexart Dublin",
+        "branch_address": [
+            {
+                "street number": 47,
+                "street name": "Grafton Street",
+                "city": "Dublin",
+                "state": "County Dublin",
+                "postcode": "D02 X285",
+                "country": "Ireland"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "dublin@nexart.com",
+                "phone_number": "+353 1 234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@700"
+    },
+    {
+        "_id": "bra00000062",
+        "branch_name": "Nexart Cairo",
+        "branch_address": [
+            {
+                "street number": 93,
+                "street name": "Al Tahrir Square",
+                "city": "Cairo",
+                "state": "Cairo Governorate",
+                "postcode": 11511,
+                "country": "Egypt"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "cairo@nexart.com",
+                "phone_number": "+20 2 12345678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@710"
+    },
+    {
+        "_id": "bra00000063",
+        "branch_name": "Nexart Rome",
+        "branch_address": [
+            {
+                "street number": 22,
+                "street name": "Via Roma",
+                "city": "Rome",
+                "state": "Lazio",
+                "postcode": 184,
+                "country": "Italy"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "rome@nexart.com",
+                "phone_number": "+39 06 1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@720"
+    },
+    {
+        "_id": "bra00000064",
+        "branch_name": "Nexart Amsterdam",
+        "branch_address": [
+            {
+                "street number": 61,
+                "street name": "Damrak",
+                "city": "Amsterdam",
+                "state": "North Holland",
+                "postcode": "1012 LG",
+                "country": "Netherlands"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "amsterdam@nexart.com",
+                "phone_number": "+31 20 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@730"
+    },
+    {
+        "_id": "bra00000065",
+        "branch_name": "Nexart Oslo",
+        "branch_address": [
+            {
+                "street number": 22,
+                "street name": "Karl Johans gate",
+                "city": "Oslo",
+                "state": "Oslo",
+                "postcode": 159,
+                "country": "Norway"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "oslo@nexart.com",
+                "phone_number": "+47 21 23 45 67"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@740"
+    },
+    {
+        "_id": "bra00000066",
+        "branch_name": "Nexart Islamabad",
+        "branch_address": [
+            {
+                "street number": 47,
+                "street name": "Mall Road",
+                "city": "Lahore",
+                "state": "Punjab",
+                "postcode": 54000,
+                "country": "Pakistan"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "islamabad@nexart.com",
+                "phone_number": "+92 21 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@750"
+    },
+    {
+        "_id": "bra00000067",
+        "branch_name": "Nexart Riyadh",
+        "branch_address": [
+            {
+                "street number": 71,
+                "street name": "King Fahd Road",
+                "city": "Riyadh",
+                "state": "Riyadh Province",
+                "postcode": 12271,
+                "country": "Saudi Arabia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "riyadh@nexart.com",
+                "phone_number": "+966 11 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@760"
+    },
+    {
+        "_id": "bra00000068",
+        "branch_name": "Nexart Seoul",
+        "branch_address": [
+            {
+                "street number": 43,
+                "street name": "Gangnam-daero",
+                "city": "Gangnam-gu",
+                "state": "Seoul",
+                "postcode": 6020,
+                "country": "South Korea"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "seoul@nexart.com",
+                "phone_number": "+82 2-123-4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@770"
+    },
+    {
+        "_id": "bra00000069",
+        "branch_name": "Nexart Madrid",
+        "branch_address": [
+            {
+                "street number": 24,
+                "street name": "Calle Gran Vía",
+                "city": "Madrid",
+                "state": "Madrid",
+                "postcode": 28013,
+                "country": "Spain"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "madrid@nexart.com",
+                "phone_number": "+34 91 123 45 67"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@780"
+    },
+    {
+        "_id": "bra00000070",
+        "branch_name": "Nexart Stockholm",
+        "branch_address": [
+            {
+                "street number": 52,
+                "street name": "Drottninggatan",
+                "city": "Stockholm",
+                "state": "Stockholm County",
+                "postcode": "111 21",
+                "country": "Sweden"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "stockholm@nexart.com",
+                "phone_number": "+46 8 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@790"
+    },
+    {
+        "_id": "bra00000071",
+        "branch_name": "Nexart Ankara",
+        "branch_address": [
+            {
+                "street number": 37,
+                "street name": "İstiklal Caddesi",
+                "city": "Istanbul",
+                "state": "Istanbul Province",
+                "postcode": 34433,
+                "country": "Turkey"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "ankara@nexart.com",
+                "phone_number": "+90 212 123 45 67"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@800"
+    },
+    {
+        "_id": "bra00000072",
+        "branch_name": "Nexart Dhaka",
+        "branch_address": [
+            {
+                "street number": 8,
+                "street name": "Gulshan Avenue",
+                "city": "Dhaka",
+                "state": "Dhaka Division",
+                "postcode": 1212,
+                "country": "Bangladesh"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "dhaka@nexart.com",
+                "phone_number": "+880 2-1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@810"
+    },
+    {
+        "_id": "bra00000073",
+        "branch_name": "Nexart Santiago",
+        "branch_address": [
+            {
+                "street number": 33,
+                "street name": "Avenida Libertador",
+                "city": "Santiago",
+                "state": "Santiago Metropolitan",
+                "postcode": 8320000,
+                "country": "Chile"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "santiago@nexart.com",
+                "phone_number": "+56 2 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@820"
+    },
+    {
+        "_id": "bra00000074",
+        "branch_name": "Nexart Copenhagen",
+        "branch_address": [
+            {
+                "street number": 67,
+                "street name": "Strøget",
+                "city": "Copenhagen",
+                "state": "Capital Region",
+                "postcode": 1550,
+                "country": "Denmark"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "copenhagen@nexart.com",
+                "phone_number": "+45 32 12 34 56"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@830"
+    },
+    {
+        "_id": "bra00000075",
+        "branch_name": "Nexart Helsinki",
+        "branch_address": [
+            {
+                "street number": 64,
+                "street name": "Mannerheimintie",
+                "city": "Helsinki",
+                "state": "Uusimaa",
+                "postcode": 100,
+                "country": "Finland"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "helsinki@nexart.com",
+                "phone_number": "+358 9 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@840"
+    },
+    {
+        "_id": "bra00000076",
+        "branch_name": "Nexart Jakarta",
+        "branch_address": [
+            {
+                "street number": 53,
+                "street name": "Jalan Jenderal Sudirman",
+                "city": "Jakarta",
+                "state": "Jakarta Special Capital Region",
+                "postcode": 10220,
+                "country": "Indonesia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "jakarta@nexart.com",
+                "phone_number": "+62 21 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@850"
+    },
+    {
+        "_id": "bra00000077",
+        "branch_name": "Nexart Kathmandu",
+        "branch_address": [
+            {
+                "street number": 82,
+                "street name": "Durbar Marg",
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "postcode": 44600,
+                "country": "Nepal"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "nairobi@nexart.com",
+                "phone_number": "+977 1-1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@860"
+    },
+    {
+        "_id": "bra00000078",
+        "branch_name": "Nexart Kuala Lumpur",
+        "branch_address": [
+            {
+                "street number": 16,
+                "street name": "Jalan Bukit Bintang",
+                "city": "Kuala Lumpur",
+                "state": "Federal Territory",
+                "postcode": 55100,
+                "country": "Malaysia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "kualalumpur@nexart.com",
+                "phone_number": "+60 3-1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@870"
+    },
+    {
+        "_id": "bra00000079",
+        "branch_name": "Nexart Edinburg",
+        "branch_address": [
+            {
+                "street number": 47,
+                "street name": "Princes Street",
+                "city": "Edinburgh",
+                "state": "Edinburgh",
+                "postcode": "EH2 2EQ",
+                "country": "Scotland"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "oslo@nexart.com",
+                "phone_number": "+44 131 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@880"
+    },
+    {
+        "_id": "bra00000080",
+        "branch_name": "Nexart Lisbon",
+        "branch_address": [
+            {
+                "street number": 98,
+                "street name": "Avenida da Liberdade",
+                "city": "Lisbon",
+                "state": "Lisbon District",
+                "postcode": "1250-140",
+                "country": "Portugal"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "lisbon@nexart.com",
+                "phone_number": "+351 21 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@890"
+    },
+    {
+        "_id": "bra00000081",
+        "branch_name": "Nexart Bangkok",
+        "branch_address": [
+            {
+                "street number": 85,
+                "street name": "Sukhumvit Road",
+                "city": "Bangkok",
+                "state": "Bangkok",
+                "postcode": 10110,
+                "country": "Thailand"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "bangkok@nexart.com",
+                "phone_number": "+66 2 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@900"
+    },
+    {
+        "_id": "bra00000082",
+        "branch_name": "Nexart Vienna",
+        "branch_address": [
+            {
+                "street number": 70,
+                "street name": "Kärntner Straße",
+                "city": "Vienna",
+                "state": "Vienna",
+                "postcode": 1010,
+                "country": "Austria"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "vienna@nexart.com",
+                "phone_number": "+43 1 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@910"
+    },
+    {
+        "_id": "bra00000083",
+        "branch_name": "Nexart Cardiff",
+        "branch_address": [
+            {
+                "street number": 87,
+                "street name": "Queen Street",
+                "city": "Cardiff",
+                "state": "South Glamorgan",
+                "postcode": "CF10 2BU",
+                "country": "Wales"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "cardiff@nexart.com",
+                "phone_number": "+44 29 1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@920"
+    },
+    {
+        "_id": "bra00000084",
+        "branch_name": "Nexart Bogotá",
+        "branch_address": [
+            {
+                "street number": 87,
+                "street name": "Carrera",
+                "city": "Bogotá",
+                "state": "Bogotá D.C",
+                "postcode": 110111,
+                "country": "Colombia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "bogotá@nexart.com",
+                "phone_number": "+57 1 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@930"
+    },
+    {
+        "_id": "bra00000085",
+        "branch_name": "Nexart Addis Ababa",
+        "branch_address": [
+            {
+                "street number": 50,
+                "street name": "Churchill Avenue",
+                "city": "Addis Ababa",
+                "state": "Addis Ababa",
+                "postcode": 1000,
+                "country": "Ethiopia"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "addisababa@nexart.com",
+                "phone_number": "+251 11 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@940"
+    },
+    {
+        "_id": "bra00000086",
+        "branch_name": "Nexart Budapest",
+        "branch_address": [
+            {
+                "street number": 15,
+                "street name": "Andrássy út",
+                "city": "Budapest",
+                "state": "Budapest",
+                "postcode": 1062,
+                "country": "Hungary"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "budapest@nexart.com",
+                "phone_number": "+36 1 234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@950"
+    },
+    {
+        "_id": "bra00000087",
+        "branch_name": "Nexart Baghdad",
+        "branch_address": [
+            {
+                "street number": 51,
+                "street name": "Al-Rashid Street",
+                "city": "Baghdad",
+                "state": "Baghdad Governorate",
+                "postcode": 10001,
+                "country": "Iraq"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "baghdad@nexart.com",
+                "phone_number": "+964 1 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@960"
+    },
+    {
+        "_id": "bra00000088",
+        "branch_name": "Nexart Rabat",
+        "branch_address": [
+            {
+                "street number": 27,
+                "street name": "Avenue Mohammed V",
+                "city": "Rabat",
+                "state": "Rabat-Salé-Kénitra",
+                "postcode": 10000,
+                "country": "Morocco"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "rabat@nexart.com",
+                "phone_number": "+212 5 1234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@970"
+    },
+    {
+        "_id": "bra00000089",
+        "branch_name": "Nexart Manila",
+        "branch_address": [
+            {
+                "street number": 64,
+                "street name": "Ayala Avenue",
+                "city": "Makati",
+                "state": "Metro Manila",
+                "postcode": 1226,
+                "country": "Philippines"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "manila@nexart.com",
+                "phone_number": "+63 2 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@980"
+    },
+    {
+        "_id": "bra00000090",
+        "branch_name": "Nexart Algiers",
+        "branch_address": [
+            {
+                "street number": 46,
+                "street name": "Rue Didouche Mourad",
+                "city": "Algiers",
+                "state": "Algiers Province",
+                "postcode": 16000,
+                "country": "Algeria"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "algiers@nexart.com",
+                "phone_number": "+213 21 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@990"
+    },
+    {
+        "_id": "bra00000091",
+        "branch_name": "Nexart Prague",
+        "branch_address": [
+            {
+                "street number": 67,
+                "street name": "Václavské náměstí",
+                "city": "Prague",
+                "state": "Prague",
+                "postcode": "110 00",
+                "country": "Czech Republic"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "prague@nexart.com",
+                "phone_number": "+420 2 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1000"
+    },
+    {
+        "_id": "bra00000092",
+        "branch_name": "Nexart Accra",
+        "branch_address": [
+            {
+                "street number": 6,
+                "street name": "Independence Avenue",
+                "city": "Accra",
+                "state": "Greater Accra Region",
+                "postcode": "GA-100-1234",
+                "country": "Ghana"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "accra@nexart.com",
+                "phone_number": "+233 30 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1010"
+    },
+    {
+        "_id": "bra00000093",
+        "branch_name": "Nexart Reykjavik",
+        "branch_address": [
+            {
+                "street number": 50,
+                "street name": "Laugavegur",
+                "city": "Reykjavik",
+                "state": "Capital Region",
+                "postcode": 101,
+                "country": "Iceland"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "reykjavik@nexart.com",
+                "phone_number": "+354 1 234 5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1020"
+    },
+    {
+        "_id": "bra00000094",
+        "branch_name": "Nexart Amman",
+        "branch_address": [
+            {
+                "street number": 33,
+                "street name": "Rainbow Street",
+                "city": "Amman",
+                "state": "Amman Governorate",
+                "postcode": 11181,
+                "country": "Jordan"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "amman@nexart.com",
+                "phone_number": "+962 6 123 4567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1030"
+    },
+    {
+        "_id": "bra00000095",
+        "branch_name": "Nexart Hanoi",
+        "branch_address": [
+            {
+                "street number": 86,
+                "street name": "Nguyễn Huệ",
+                "city": "Ho Chi Minh City",
+                "state": "Ho Chi Minh City",
+                "postcode": 700000,
+                "country": "Vietnam"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "hanoi@nexart.com",
+                "phone_number": "+84 24 1234567"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1040"
+    },
+    {
+        "_id": "bra00000096",
+        "branch_name": "Nexart Alberta",
+        "branch_address": [
+            {
+                "street number": 93,
+                "street name": "Jasper Avenue",
+                "city": "Edmonton",
+                "state": "Alberta",
+                "postcode": "T5J 1Z6",
+                "country": "Canada"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "alberta@nexart.com",
+                "phone_number": "(403) 555-1234"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1050"
+    },
+    {
+        "_id": "bra00000097",
+        "branch_name": "Nexart British Columbia",
+        "branch_address": [
+            {
+                "street number": 87,
+                "street name": "Granville Street",
+                "city": "Vancouver",
+                "state": "British Columbia",
+                "postcode": "V6C 1T2",
+                "country": "Canada"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "britishcolumbia@nexart.com",
+                "phone_number": "(604) 555-5678"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1060"
+    },
+    {
+        "_id": "bra00000098",
+        "branch_name": "Nexart Manitoba",
+        "branch_address": [
+            {
+                "street number": 87,
+                "street name": "Portage Avenue",
+                "city": "Winnipeg",
+                "state": "Manitoba",
+                "postcode": "R3G 0M3",
+                "country": "Canada"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "manitoba@nexart.com",
+                "phone_number": "(204) 555-9012"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1070"
+    },
+    {
+        "_id": "bra00000099",
+        "branch_name": "Nexart New Brunswick",
+        "branch_address": [
+            {
+                "street number": 92,
+                "street name": "King Street",
+                "city": "Saint John",
+                "state": "New Brunswick",
+                "postcode": "E2L 1G4",
+                "country": "Canada"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "newbrunswick@nexart.com",
+                "phone_number": "(506) 555-3456"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1080"
+    },
+    {
+        "_id": "bra00000100",
+        "branch_name": "Nexart Nova Scotia",
+        "branch_address": [
+            {
+                "street number": 22,
+                "street name": "Spring Garden Road",
+                "city": "Halifax",
+                "state": "Nova Scotia",
+                "postcode": "B3J 1Y3",
+                "country": "Canada"
+            }
+        ],
+        "branch_contact": [
+            {
+                "email_address": "novascotia@nexart.com",
+                "phone_number": "(902) 555-7890"
+            }
+        ],
+        "stock": [
+            {
+                "product_id": "prd00000001",
+                "quantity": 100
+            }
+        ],
+        "branch_password": "bra@1090"
+    }
+]

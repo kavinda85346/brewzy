@@ -1,0 +1,15 @@
+# Ignore virtual environment
+brewenv/
+.env
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore log and cache files
+*.log

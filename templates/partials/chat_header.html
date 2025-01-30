@@ -1,0 +1,121 @@
+<div class="row">
+    <nav class="navbar" style="background-color: #D4D4D4;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Chats</a>
+        <div class="d-flex d-md-flex justify-content-md-end">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#add">
+            <img src="{{ url_for('static', filename='images/icons/add.png') }}" height="20" width="20" alt="add icon">
+          </button>
+          <!--Chat creation form start-->
+          <div class="modal fade" id="add" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Add Chat</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Do you want to start a new chat?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                    No
+                    <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25" alt="no icon">
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                    Yes
+                    <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25" alt="yes icon">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Chat creation form end-->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#view">
+            <img src="{{ url_for('static', filename='images/icons/view.png') }}" height="20" width="20" alt="view icon">
+          </button>
+          <!--Chat view form start-->
+          <div class="modal fade" id="view" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">View Chat</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Do you want to view the chat?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                    No
+                    <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25" alt="no icon">
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                    Yes
+                    <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25" alt="yes icon">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Chat view form end-->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#update">
+            <img src="{{ url_for('static', filename='images/icons/update.png') }}" height="20" width="20" alt="update icon">
+          </button>
+          <!--Chat update form start-->
+          <div class="modal fade" id="update" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Update Chat</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Do you want to update the chat?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                    No
+                    <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25" alt="no icon">
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                    Yes
+                    <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25" alt="yes icon">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Chat update form end-->
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#delete">
+            <img src="{{ url_for('static', filename='images/icons/delete.png') }}" height="20" width="20" alt="delete icon">
+          </button>
+          <!--Chat delete form start-->
+          <div class="modal fade" id="delete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Delete Chat</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Do you want to delete the chat(s)?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#">
+                    No
+                    <img src="{{ url_for('static', filename='images/icons/no.png') }}" class="p-1" height="25" width="25" alt="no icon">
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#">
+                    Yes
+                    <img src="{{ url_for('static', filename='images/icons/yes.png') }}" class="p-1" height="25" width="25" alt="yes icon">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Chat delete form end-->
+        </div>
+      </div>
+    </nav>
+  </div>

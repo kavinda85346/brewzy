@@ -1,0 +1,583 @@
+\documentclass[12pt,a4Paper]{article}
+\usepackage{newtxtext,newtxmath}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\captionsetup[table]{justification=centering}
+\captionsetup[figure]{justification=centering}
+\parindent 0px
+\begin{document}
+\begin{titlepage}
+\begin{center}
+%\includegraphics[width=10cm]{images/apiit_logo.jpg}\\[1cm]
+	\begin{Huge}
+	INDIVIDUAL ASSIGNMENT TWO
+	\end{Huge}\\[1cm]
+    \begin{Large}
+    LEVEL 6
+    \end{Large}\\[0.5cm]
+    \begin{Large}
+    COMP60022
+    \end{Large}\\[1cm]
+    \begin{huge}
+    DECISION ANALYTICS
+    \end{huge}\\[0.5cm]
+    \begin{LARGE}
+    HFK2422COM HFK2422COMF
+    \end{LARGE}\\[1cm]
+    \begin{large}
+    Hand Out Date: 30/03/2024
+    \end{large}\\[0.5cm]
+    \begin{large}
+    Hand In Date: 11/05/2024
+    \end{large}\\[1cm]
+    \hrule
+    \vspace{1cm}
+    \begin{center}
+    \begin{tabular}{rll}\hline
+    \textbf{Staffordshire Student Number} & \textbf{Student CB Number} & \textbf{Student Full Name}\\\hline
+     21035795 & CB010406 & Kavinda Kethiya Rajapaksha\\\hline
+    \end{tabular}
+    \end{center}
+    \vspace{1cm}
+    \hrule
+\end{center}
+\end{titlepage}
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+\newpage
+\section{Introduction}
+\subsection{Background Study}
+Sera Holdings is a famed conglomerate known for miscellaneous trade interests across various fields. This corporation was founded in 1985 by Jhon Sera, who is Chairperson and CEO. Sera Holdings branches are located all over the world. The main headquarters of Sera Holdings is located at Hyogo Japan. This enterprise revolves around real estate development and investment. This conglomerate widens its business domain by investing currency in technology, finance, energy, and consumer goods sectors.\\[12pt]
+\begin{figure}[H]
+\centering
+%\includegraphics[width=8cm]{images/sera_holdings.jpeg}
+\caption{Sera Holdings Head Quarters}
+\end{figure}
+These fields oversee Sera Holdings overall revenue and market share. Residential, commercial, and industrial properties are part of Sera Holdings real estate. It has developed many extravagant real estate projects globally. The technology department of Sera Holdings comprises of software development, IT services, tech startups, cybersecurity firms and data analytics. A wide range of financial products and advisory services are offered by the Finance sector through banking, insurance, and investment services. The energy sector of Sera Holdings carries out oil and gas exploration, renewable energy projects and utility services. Food and beverages, household goods and personal care items are produced by the consumer goods field.\\[12pt]
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=8cm]{images/sera_investments.jpg}
+%\caption{Sera Holdings Investments}
+%\end{figure}
+Sera Holdings international market has spanned out to North America, Europe, Asia, and Africa. It has gained remarkable operational efficiency through strategic partnerships and conducting business projects with global firms. The board of directors and Jhon Sera lead the company, and the board of directors are formed out of skilled executives from diverse backgrounds. Compliance and integrity are ensured by the enterprise via implementing robust governance frameworks and policies. Risk mitigation and capitalization on opportunities across diverse market categories are archived through the corporation’s diversified portfolio. Environmental sustainability, community development and employee welfare are corporate social responsibility initiatives of Sera Holdings. Strategic acquisitions and mergers toughen the conglomerate’s position in the main markets. It meddles with innovative technologies such as AI, blockchain and IoT (Internet of Things) to carry out innovation and efficiency. Regulatory changes, market volatility, competitive pressures, effective coordination, and strategic alignment are challenges faced by this corporation. The growth of Sera Holdings relies on emerging markets, technological advancements, and sustainability initiatives.
+\subsection{Case Study}
+There has been a decline in Sera Holdings revenues ranging from 2023 to 2024 according to the Statistica website. Due to privacy and confidentiality issues a detailed statistical report cannot be obtained from any online or offline resources. Sera Holdings lost 6 billion in revenue in this period as a fact. We can hypothetically assess the revenue loss according to the following frequencies. 
+\begin{enumerate}
+\item Q1 2023 Revenue Loss: $1.5$ billion.
+\item Q2 2023 Revenue Loss: $1.4$ billion.
+\item Q3 2023 Revenue Loss: $1.2$ billion.
+\item Q4 2023 Revenue Loss: $1.0$ billion.
+\item Q1 2024 Revenue Loss: $0.9$ billion.
+\end{enumerate}
+The total revenue loss of Sera Holdings can be graphed as follows.
+%\begin{figure}[H]
+%\includegraphics[width=18cm]{images/chart.png}
+%\caption{Total Revenue Loss}
+%\end{figure}
+\newpage 
+\subsection{5W Questions for the case study}
+\begin{itemize}
+\item \textbf{Who}:- Employees, customers, and investors of Sera Holdings.
+\item \textbf{What}:- Ongoing revenue decline.
+\item \textbf{Where}:- Foremost in North American marketplaces, but also affecting international operations.
+\item \textbf{When}:- Striking decline observed from Q1 2023 to Q1 2024.
+\item \textbf{Why}:- To overcome increased competition from online retailers, poor strategic decisions, and changing consumer behaviors to maximize the revenue of Sera Holdings.
+\end{itemize}
+\subsection{Problem Context}
+As the business of Sera Holdings started to boom, it extended its roots to other sectors around the globe. Even though the rapid growth of the business did not stay to thrive so much due to the consistent revenue loss.
+\subsection{Business Problem}
+This revenue loss resulted in financial viability and market losses. As the revenue of Sera Holdings dropped, the business reputation faded gradually. In addition, many job roles had to be shortlisted to cut out the labor charge.
+\subsection{Key Questions}
+The following questions guide us to narrow down issues upto a certain extent.
+\begin{enumerate}
+\item What are the major factors that contribute towards the revenue loss?
+\item How data analytics and machine learning ease up the revenue loss?
+\item What data analytic and machine learning methods can support to make decisions for revenue growth? 
+\end{enumerate}
+\subsection{Research Objective}
+The main objective of this solution would be to analyze the corporation data using techniques of data analytics. Machine learning is applied to monitor the revenue loss and draw out strategies to increase the revenue.
+\section{Data Analytics}
+\subsection{The Help of Data Analytics in Business}
+Revealing trends, patterns and insights are functions which are performed by data analytics. According to this scenario, all the insights which are derived from data fall into the financial data category. Segmentation is a process which splits the revenue data according to different variations of frequencies. These frequencies help us to comprehend well the points of decline and potential causes. 
+\subsubsection{4V Concepts of Big Data}
+Sera Holdings produces daily large sums of data such as financial reports, transactions, IoT sensor readings and so on. These data may have value. Wither the data is meaningful or not, we need to store these data for a desired period. This raw data aids us in deriving useful information. The structure of these data varies between unstructured or structured. Traditional DBMSs are only capable of handling structured data. NOSQL databases can handle structured, semi-structured and unstructured data. Big Data has its own characteristics, and all these features are defined as 4Vs (Data Characteristics). Let us discuss the characteristics of Big Data further in relation to Sera Holdings. 
+\begin{enumerate}
+\item Volume:- Real state, technology, finance, energy, and consumer goods sectors generate huge volumes of data such as financial data, IoT (Internet of Things) sensor data etc \citep{website1}.
+\item Velocity:- All the collected data from the sectors are further processed to ensure the quality of the data through techniques such as integration, data cleaning and redundancy removal. The processed data is again taken to generate insights \citep{website3} \citep{website2}.
+\item Variety:- The data shows its original form during the data collection process. The form of the data can change after the cleaning process. The data collected from the files of Sera Holdings may take semi-structured and unstructured forms \citep{website4}.
+\item Veracity:- The validity and consistency of Sera Holdings data ensured at this level by precision examination \citep{website5}.
+\end{enumerate} 
+\subsubsection{Machine Learning}
+To recognize obscured schemes and estimate future revenue tendencies we need effective formulas. These types of Algorithms are utilized in machine learning. The processing power of humans is limited in comparison with Machine Learning models. These models are trained and tested by professionals. So, a limited number of errors occur compared with humans. It takes a decent amount of time for a human being to solve a complex problem, but Machine Learning Models solve complex issues within a limited time. So, we can rectify intricate dilemmas faced by Sera Holdings within a shorter time and it will also help us to make future projections. 
+\subsubsection{Data Mining}
+This approach helps us to extract meaningful patterns from substantial datasets. As an example, we can inspect customer transaction history reports to distinguish trends and inclinations of Sera Holdings.
+\subsubsection{Knowledge Discovery}
+This is the process which involves converting raw data into meaningful information. Identification of the most profitable customer segments done by the knowledge discovery through the integration machine learning and data mining. This enables Sera Holdings to uncover insights that inform strategic decisions.
+\subsubsection{Relationship between Machine Learning, Data Mining and Knowledge Discovery}
+Finding patterns in large datasets are done by the data mining process. Those patterns are utilized for predictive modeling via machine learning. Data mining and machine learning results are combined in the knowledge discovery phase. This delivers meaningful insights for the decision-making process.\\[12pt]
+
+\subsubsection{Justification of the Relationship between Machine Learning, Data Mining and Knowledge Discovery}
+These three concepts work together independently to support business decision making. Data mining techniques help machine learning algorithms to extract insights from data. Identifying and extracting valuable insights from data are done by the knowledge discovery mechanism. This helps the business decision making process.
+\subsubsection{Issue Trees}
+The revenue loss of Sera Holdings can be divided into three sections, and they are customer behavior, market trends and operational efficiency. Customer behavior again is further divided into gender based, age category, platform, seasonal / monthly and geographic analysis. Product popularity, competitor and trend are three subcategories that fall under market trends. Operational efficiency main branch widens to supply chain management, inventory control and cost management subbranches. Each subbranch poses a main question which further again poses two / three questions. 
+\begin{enumerate}
+\item Customer Behavior
+	\begin{enumerate}
+	\item Gender based analysis
+		\begin{itemize}
+		\item Which gender purchases more and less from Sera Holding owned supermarkets?
+			\begin{itemize}
+			\item Which gender buys more?
+			\item Which gender buys less?
+			\end{itemize}
+		\end{itemize}
+	\item Age category analysis
+		\begin{itemize}
+		\item Which age group items are sold more in Sera Holding owned supermarkets?
+			\begin{itemize}
+			\item What are the age groups?
+			\item Which age group items sell most?
+			\end{itemize}
+		\end{itemize}
+	\item Platform analysis
+		\begin{itemize}
+		\item Which platform(online or physical) has more and less sales in Sera Holding owned supermarkets?
+			\begin{itemize}
+			\item Which platform has more sales?
+			\item Which platform has less sales?
+			\end{itemize}
+		\end{itemize}
+	\item Seasonal / monthly analysis
+		\begin{itemize}
+		\item Which months have more and less income in Sera Holding owned supermarkets?
+			\begin{itemize}
+			\item Which month has less income?
+			\item Which month has more income?
+			\end{itemize}
+		\end{itemize}
+	\item Geographic analysis
+		\begin{itemize}
+		\item Which city site has more and less income in the real state and consumer goods fields?
+			\begin{itemize}
+			\item Which city site has less income?
+			\item Which city site has more income?
+			\end{itemize}
+		\end{itemize}
+	\end{enumerate}
+\item Market Trends
+	\begin{enumerate}
+	\item Product Popularity
+		\begin{itemize}
+		\item Which is the most and least selling product in Sera Holding owned supermarkets?
+			\begin{itemize}
+			\item What product is sold most?
+			\item What product is sold least?
+			\end{itemize}
+		\end{itemize}
+		\newpage
+	\item Competitor Analysis
+		\begin{itemize}
+		\item What effect does other competitors have over Sera Holdings revenue?
+			\begin{itemize}
+			\item Who are the main competitors in each field(Real Estate, Technology, Finance, Energy, Consumer Goods)?
+			\item What are the strengths and weaknesses of competitors compared to Sera Holdings?
+			\end{itemize}
+		\end{itemize}
+	\item Trend Analysis
+		\begin{itemize}
+		\item How can the current trends affect Sera Holdings?
+			\begin{itemize}
+			\item What are the emerging trends in each field?
+			\item How does Sera holdings adapting to these trends?
+			\end{itemize}
+		\end{itemize}
+	\end{enumerate}
+\item Operational Efficiency
+	\begin{enumerate}
+	\item Supply Chain Management
+		\begin{itemize}
+		\item How can supply chain management affect the Sera Holding revenue?
+			\begin{itemize}
+			\item Are there any delays or inefficiencies in the supply chain across different segments?
+			\item How can supply chain processes be optimized for each segment?
+			\item Are there issues with supplier reliability or logistics?
+			\end{itemize}
+		\end{itemize}
+	\item Inventory Control
+		\begin{itemize}
+		\item What effect does inventory control have over Sera Holdings?
+			\begin{itemize}
+			\item How accurate are demand forecasts for each segment?
+			\item Are there issues with overstocking or stockouts in the consumer goods segment?
+			\item What is the inventory turnover rate for each segment?
+			\end{itemize}
+		\end{itemize}
+	\item Cost Management
+		\begin{itemize}
+		\item How can the cost management affect the Sera Holdings revenue?
+			\begin{itemize}
+			\item Are operational costs rising in specific segments?
+			\item How efficient are the cost-control measures in place for each segment?
+			\item Are there redundancies or inefficiencies in operations that can be addressed?
+			\end{itemize}
+		\end{itemize}
+	\end{enumerate}
+\end{enumerate}
+\subsubsection{Data to be collected}
+\begin{enumerate}
+\item Customer Behavior
+	\begin{itemize}
+	\item Changes in Consumer Preferences
+		\begin{itemize}
+		\item Surveys and Feedback table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Surveys and Feedback}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Survey Response ID & Non-Categorical\\
+		Customer Satisfaction Ratings & Non-Categorical\\
+		Feedback Comments & Categorical\\
+		Online Reviews & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Surveys and Feedback}
+		\end{table}
+		\item Sales table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Sales}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Product Category Sales & Non-Categorical\\
+		Product Return Rates & Non-Categorical\\
+		Product Exchange Rates & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Sales}
+		\end{table}
+		\item Market Research table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Market Research}} & &\\\hline
+		\textbf{Feature} & \textbf{Data Type}\\
+		Market Trend Reports & Non-Categorical\\
+		Competitor Analysis Reports & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Market Research}
+		\end{table}
+		\end{itemize}
+	\item Purchasing Habits
+		\begin{itemize}
+		\item Demographic table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Demographic}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Customer ID & Categorical\\
+		Name & Categorical\\
+		Age & Non-Categorical\\
+		Gender & Categorical\\
+		Location & Categorical\\
+		Purchase History & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Demographic}
+		\end{table}	
+		\item Transaction table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Transaction}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Transaction ID & Categorical\\
+		Date of Purchases & Non-Categorical\\
+		Purchase Frequency & Non-Categorical\\
+		Purchase Value & Non-Categorical\\
+		Loyalty Program Participation & Categorical\\
+		Abandoned Cart & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Transaction}
+		\end{table}
+		\newpage	
+		\item Competitor table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitor}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Competitor Market Share & Non-Categorical\\
+		Customer Switching & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Competitor}
+		\end{table}	
+		\end{itemize}
+	\item Platform Preferences
+		\begin{itemize}
+		\item Sales Channel table
+			\begin{table}
+			\begin{tabular}{llll}\hline
+			\multicolumn{2}{c}{\textbf{Sales Channel}} & &\\
+			\textbf{Feature} & \textbf{Data Type}\\\hline
+			Sales Volume(Online) & Non-Categorical\\
+			Sales Volume(Physical Stores) & Non-Categorical\\
+			Website Traffic & Non-Categorical\\
+			Conversion Rates(Online) & Non-Categorical\\\hline
+			\end{tabular}
+			\centering
+			\caption{Sales Channel}
+			\end{table}	
+		\item Customer Feedback table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Customer Feedback}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Shopping Channel Preference & Categorical\\
+		Online Store Usability Ratings & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Customer Feedback}
+		\end{table}	
+		\end{itemize}
+	\end{itemize}
+\item Market Trends
+	\begin{itemize}
+	\item Increased Competition
+		\begin{itemize}
+		\item Competitive Analysis table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Competitor Product Offerings & Categorical\\
+		Competitor Pricing & Non-Categorical\\
+		Market Share & Non-Categorical\\
+		Competitor SWOT Analysis & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Customer Feedback}
+		\end{table}	
+		\item Industry Reports table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Industry Growth Rates & Non-Categorical\\
+		Market Forecast Reports & Categorical\\
+		Benchmarking Reports & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Industry Reports}
+		\end{table}	
+		\end{itemize}
+	\item Changing Consumer Preferences
+		\begin{itemize}
+		\item Trend Analysis table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Trend Reports & Categorical\\
+		Consumer Behavior Studies & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Trend Analysis}
+		\end{table}
+		\item Innovation Tracking table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Emerging Technologies & Categorical\\
+		Patent Filings & Categorical\\
+		RandD Activity Reports & Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Innovation Tracking}
+		\end{table}
+		\end{itemize}
+	\item Economic Factors
+		\begin{itemize}
+		\item Macroeconomic table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Consumer Confidence Indices & Non-Categorical\\
+		Disposable Income Statistics & Non-Categorical\\
+		Economic Forecasts & Categorical\\
+		Inflation Rates & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Macroeconomic}
+		\end{table}
+		\end{itemize}
+	\end{itemize}
+\item Operational Efficiency
+	\begin{itemize}
+	\item Supply Chain Management
+		\begin{itemize}
+		\item Supply Chain Metrics table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Lead Times & Non-Categorical\\
+		On-Time Delivery Rates & Non-Categorical\\
+		Inventory Levels & Non-Categorical\\
+		Inventory Turnover Rates & Non-Categorical\\
+		Supplier Performance & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Supply Chain Metrics}
+		\end{table}
+		\newpage
+		\item Logistics table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Transportation Costs & Non-Categorical\\
+		Warehousing Costs & Non-Categorical\\
+		Distribution Efficiency & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Logistics}
+		\end{table}
+		\end{itemize}
+	\item Inventory Control
+		\begin{itemize}
+		\item Inventory table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Inventory Levels by Product & Non-Categorical\\
+		Stock Rates & Non-Categorical\\
+		Overstock Rates & Non-Categorical\\
+		Inventory Aging Reports & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Inventory}
+		\end{table}
+		\item Demand Forecasting table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Historical Sales & Non-Categorical\\
+		Forecast Accuracy & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Demand Forecasting}
+		\end{table}
+		\end{itemize}
+	\item Cost Management
+		\begin{itemize}
+		\item Cost table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Competitive Analysis}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Operational Costs & Non-Categorical\\
+		Production Costs & Non-Categorical\\
+		Cost of Goods Sold & Non-Categorical\\
+		Overhead Expenses & Non-Categorical\\
+		Administrative Expenses & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Cost}
+		\end{table}
+		\item Efficiency Metrics table
+		\begin{table}
+		\begin{tabular}{llll}\hline
+		\multicolumn{2}{c}{\textbf{Efficiency Metrics}} & &\\
+		\textbf{Feature} & \textbf{Data Type}\\\hline
+		Labor Productivity & Non-Categorical\\
+		Process Efficiency & Non-Categorical\\\hline
+		\end{tabular}
+		\centering
+		\caption{Efficiency Metrics}
+		\end{table}
+		\end{itemize}
+	\end{itemize}
+\end{enumerate}
+\subsection{Key Questions and Analytical Methodologies}
+Analytical methodology helps us to determine key queries and make conclusions. The following principles are used by machine learning.
+\begin{enumerate}
+\item Supervised Learning
+\item Unsupervised Learning
+\item Reinforcement Learning
+\item Semi-Supervised Leaning
+\end{enumerate}
+To analyze the revenue issue of Sera Holdings, the Clustering methodology is used, and it is an unsupervised data mining technique. This technique splits the data into several groups. These groups are used by machine learning algorithms to make decisions in the future. Let us examine how we can evaluate the main queries applying the analytical methods. 
+\begin{table}
+\centering
+\begin{tabularx}{\textwidth}{XXX}\hline
+\textbf{Main Questions} & \textbf{Methodology} & \textbf{Observation}\\\hline
+Which gender purchases more and less from Sera Holding owned supermarkets? & We can examine the customer purchase records and identify the least and most sold items. After the examination, we can offer discounts for the least sold products. & Bar, Pie, and Line Graphs\\\hline
+Which age group items are sold more in Sera Holding owned supermarkets? & We can inspect the customer purchase records and identify purchasing trends of each age group. So that we could offer discounts or remarkable offers to age groups who have made fewer purchases. & Bar, Pie, and Line Graphs\\\hline
+Which platform (online or physical) has more and less sales in Sera Holding owned supermarkets? & We can observe the sales records and identify the total contribution of sales by each platform. Next, we can offer discounts for the online platforms used platforms considering cutting down the labor cost. & Bar, Pie, and Line Graphs\\\hline
+Which months have more and less incomes in Sera Holding owned supermarkets? & We can inspect the sales records and identify the numbers that Seras Holdings have made monthly wise. To boost the income of months less earned, we can offer exclusive offers / discounts for those months. & Bar, Pie, and Line Graphs\\\hline
+Which city site has more and less income in the real state and consumer goods fields? & First, we must gather all the sales records of each city and we need to summarize each record. All the summarized data should be put into a file for observations. When inspecting summarized data, we can notice climb ups and climb downs of income of each city. We can conduct campaigns / offer discounts to inflate the income of low earning cities. & Bar, Pie, and Line Graphs\\\hline
+Which is the most and least selling product in Sera Holding owned supermarkets? & When examining customer purchase records, we can recognize the customer trends so as their preferences. We can offer noteworthy discounts / offers for the items which have a low selling rate. & Bar, Pie, and Line Graphs\\\hline
+\end{tabularx}
+\caption{Key Questions}
+\end{table}
+\newpage
+\subsection{Data Analytic Solutions}
+\subsubsection{Insights / Knowledge}
+Spotlighting main intuitions into revenue trends, customer behavior and marketing conditions are findings from a data analysis. These findings help us to identify preferences of the customers or seasonal purchasing preferences of customers.
+\subsubsection{Recommendations}
+We can suggest the following strategies based on the insights that gathered from the analytical data.
+\begin{enumerate}
+\item To decrease the costs and enhance operational efficiency, supply chain management and inventory control systems should be utilized for the entire supply chains. 
+\item Targeted marketing campaigns and loyalty programs gives us the ability to attract and conserve customers.
+\item We can use the machine learning algorithms and data analytics to make decisions by identification of trends in customer behavior and market.
+\item Diminish garbage refine efficiency in all commercial operations by carrying out slant management techniques.
+\item Diversify income sources by searching for new geological markets.
+\item Multiply returns and lower inactive resources by evaluating and enhancing the utilization of existing capitals.
+\item Access new mechanics, retails, and capabilities by strategic accords and partnerships.
+\item Advance brand name and foment community friendliness by enlarging corporate social obligations.
+\end{enumerate}
+\section{Interventions}
+Based on the following recommendations, we can draw out the following intervention methods.
+\begin{enumerate}
+\item Minimize labor costs by encouraging customers to purchase items online.
+\item Weaponize supply chain with enhanced inventory control systems that are compatible with RFID tagging to decrease the inventory holding charges and stockouts.
+\item Streamlining processes, decreasing lead times and minimizing fees associated with transportation, warehousing, and procurement enable us to recognize inefficiencies and bottlenecks in supply chains.
+\item Proposing discounts, loyalty points and VIP perks persuade the consumers to transform into advocates and intensify the number of purchases. 
+\item Conduct promotional campaigns. 
+\item Looking forward to marketing trends and customizing plans according to predictive analytics.
+\item A robust data analytic framework helps to detect KPIs related to sales, inventory turnover, customer satisfaction, and operational efficiency.
+\item Coordinate workshop seminars to develop the skills of employees.
+\end{enumerate}
+\section{Limits / Risks}
+There are certain risks associated with the solution and they are listed below.
+\begin{enumerate}
+\item The quality and accuracy of the data used in the analysis might not be 100\% accurate.
+\item There can be limitations in the machine learning algorithms and data mining techniques used in analysis.
+\item Different challenges can occur during the implementation phase regarding recommended strategies and solutions.
+\item Purchasers can be disappointed because of probable technical problems with online platforms.
+\item RFID tagging systems can have an effect on the Sera Holdings budget.
+\item Employee attitude and career fulfillment can be affected by the alterations in operations.
+\item Commercial losses can occur to the customer deeds in loyalty arrangements.
+\item Privacy of the purchasers can jeopardize in the data collection and examination process.
+\end{enumerate}
+\section{Conclusion}
+Data analytics and machine learning are vital aspects when it comes to making business decisions. We can identify the elements which contribute towards revenue loss and develop strategies to improve revenue loss by implementing data analytics and machine learning methods. 4V framework of big data is a key concept which is discussed in data analysis. Predicting patterns, recommending customized objects and building up inventory management systems are handled by machine learning algorithms. Informed business decision-making and driving business outcomes are part of the foundation derived by insights gained through the analysis. Resiliency in supply chain prevents prospects, improve performance and foster adaptability in the face of market insecurities. As the bottom line, Sera Holdings corporation needs to evolve with data analytics, data mining and machine learning methodologies to play a dominant role in global market.  
+\bibliography{da_assignment_references}
+\end{document}

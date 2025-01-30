@@ -1,0 +1,902 @@
+[
+    {
+        "_id": "prd00000001",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-1",
+        "product_name": "Nexart Layer 2 Ser1 Managable Switch",
+        "product_description": "high performance layer 2 first series switch",
+        "product_price": 210.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000002",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-2",
+        "product_name": "Nexart Layer 2 Ser2 Managable Switch",
+        "product_description": "high performance layer 2 second series switch",
+        "product_price": 220.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000003",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-3",
+        "product_name": "Nexart Layer 2 Ser3 Managable Switch",
+        "product_description": "high performance layer 2 third series switch",
+        "product_price": 230.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000004",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-4",
+        "product_name": "Nexart Layer 2 Ser4 Managable Switch",
+        "product_description": "high performance layer 2 fourth series switch",
+        "product_price": 240.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000005",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-5",
+        "product_name": "Nexart Layer 2 Ser5 Managable Switch",
+        "product_description": "high performance layer 2 fifth series switch",
+        "product_price": 250.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000006",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-6",
+        "product_name": "Nexart Layer 2 Ser6 Managable Switch",
+        "product_description": "high performance layer 2 six series switch",
+        "product_price": 260.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000007",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-7",
+        "product_name": "Nexart Layer 2 Ser7 Managable Switch",
+        "product_description": "high performance layer 2 seven series switch",
+        "product_price": 270.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000008",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-8",
+        "product_name": "Nexart Layer 2 Ser8 Managable Switch",
+        "product_description": "high performance layer 2 eight series switch",
+        "product_price": 280.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000009",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-1",
+        "product_name": "Nexart Layer 3 Ser1 Managable Switch",
+        "product_description": "high performance layer 3 first series switch",
+        "product_price": 290.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000010",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-2",
+        "product_name": "Nexart Layer 3 Ser2 Managable Switch",
+        "product_description": "high performance layer 3 second series switch",
+        "product_price": 300.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000011",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-3",
+        "product_name": "Nexart Layer 3 Ser3 Managable Switch",
+        "product_description": "high performance layer 3 third series switch",
+        "product_price": 310.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000012",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-4",
+        "product_name": "Nexart Layer 3 Ser4 Managable Switch",
+        "product_description": "high performance layer 3 series switch",
+        "product_price": 320.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000013",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-5",
+        "product_name": "Nexart Layer 3 Ser5 Managable Switch",
+        "product_description": "high performance layer 3 fifth series switch",
+        "product_price": 330.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000014",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-6",
+        "product_name": "Nexart Layer 3 Ser6 Managable Switch",
+        "product_description": "high performance layer 3 six series switch",
+        "product_price": 340.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000015",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-7",
+        "product_name": "Nexart Layer 3 Ser7 Managable Switch",
+        "product_description": "high performance layer 3 seven series switch",
+        "product_price": 350.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000016",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-8",
+        "product_name": "Nexart Layer 3 Ser8 Managable Switch",
+        "product_description": "high performance layer 3 eight series switch",
+        "product_price": 360.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000017",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-1",
+        "product_name": "Nexart Ser1 Managable Router",
+        "product_description": "high performance first series router",
+        "product_price": 370.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000018",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-2",
+        "product_name": "Nexart Ser2 Managable Router",
+        "product_description": "high performance second series router",
+        "product_price": 380.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000019",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-3",
+        "product_name": "Nexart Ser3 Managable Router",
+        "product_description": "high performance thrird series router",
+        "product_price": 390.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000020",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-4",
+        "product_name": "Nexart Ser4 Managable Router",
+        "product_description": "high performance fourth series router",
+        "product_price": 400.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000021",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-5",
+        "product_name": "Nexart Ser5 Managable Router",
+        "product_description": "high performance fifth series router",
+        "product_price": 410.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000022",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-6",
+        "product_name": "Nexart Ser6 Managable Router",
+        "product_description": "high performance six series router",
+        "product_price": 420.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000023",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-7",
+        "product_name": "Nexart Ser7 Managable Router",
+        "product_description": "high performance seven series router",
+        "product_price": 430.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000024",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-8",
+        "product_name": "Nexart Ser8 Managable Router",
+        "product_description": "high performance eight series router",
+        "product_price": 440.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000025",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-1",
+        "product_name": "Nexart Ser1 Managable Wireless Router",
+        "product_description": "high performance first series wireless router",
+        "product_price": 450.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000026",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-2",
+        "product_name": "Nexart Ser2 Managable Wireless Router",
+        "product_description": "high performance second series wireless router",
+        "product_price": 460.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000027",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-3",
+        "product_name": "Nexart Ser3 Managable Wireless Router",
+        "product_description": "high performance third series wireless router",
+        "product_price": 470.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000028",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-4",
+        "product_name": "Nexart Ser4 Managable Wireless Router",
+        "product_description": "high performance fourth series wireless router",
+        "product_price": 480.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000029",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-5",
+        "product_name": "Nexart Ser5 Managable Wireless Router",
+        "product_description": "high performance fifth series wireless router",
+        "product_price": 490.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000030",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-6",
+        "product_name": "Nexart Ser6 Managable Wireless Router",
+        "product_description": "high performance six series wireless router",
+        "product_price": 500.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000031",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-7",
+        "product_name": "Nexart Ser7 Managable Wireless Router",
+        "product_description": "high performance seventh series wireless router",
+        "product_price": 510.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000032",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-8",
+        "product_name": "Nexart Ser8 Managable Wireless Router",
+        "product_description": "high performance eight series wireless router",
+        "product_price": 520.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000033",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-1",
+        "product_name": "Nexart Ser1 Wireless LAN Controller",
+        "product_description": "high performance first series wiresless lan controller",
+        "product_price": 530.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000034",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-2",
+        "product_name": "Nexart Ser2 Wireless LAN Controller",
+        "product_description": "high performance second series wiresless lan controller",
+        "product_price": 540.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000035",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-3",
+        "product_name": "Nexart Ser3 Wireless LAN Controller",
+        "product_description": "high performance third series wiresless lan controller",
+        "product_price": 550.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000036",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-4",
+        "product_name": "Nexart Ser4 Wireless LAN Controller",
+        "product_description": "high performance fourth series wiresless lan controller",
+        "product_price": 560.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000037",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-5",
+        "product_name": "Nexart Ser5 Wireless LAN Controller",
+        "product_description": "high performance fifth series wiresless lan controller",
+        "product_price": 570.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000038",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-6",
+        "product_name": "Nexart Ser6 Wireless LAN Controller",
+        "product_description": "high performance sixth series wiresless lan controller",
+        "product_price": 580.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000039",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-7",
+        "product_name": "Nexart Ser7 Wireless LAN Controller",
+        "product_description": "high performance seventh series wiresless lan controller",
+        "product_price": 590.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000040",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-8",
+        "product_name": "Nexart Ser8 Wireless LAN Controller",
+        "product_description": "high performance eighth series wiresless lan controller",
+        "product_price": 600.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000041",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-9",
+        "product_name": "Nexart Ser9 Wireless LAN Controller",
+        "product_description": "high performance eighth series wiresless lan controller",
+        "product_price": 610.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000042",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-10",
+        "product_name": "Nexart Ser10 Wireless LAN Controller",
+        "product_description": "high performance tenth series wiresless lan controller",
+        "product_price": 620.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000043",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-11",
+        "product_name": "Nexart Ser11 Wireless LAN Controller",
+        "product_description": "high performance eleventh series wiresless lan controller",
+        "product_price": 630.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000044",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-12",
+        "product_name": "Nexart Ser12 Wireless LAN Controller",
+        "product_description": "high performance towelth series wiresless lan controller",
+        "product_price": 640.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000045",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-13",
+        "product_name": "Nexart Ser13 Wireless LAN Controller",
+        "product_description": "high performance thirteeth series wiresless lan controller",
+        "product_price": 650.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000046",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-14",
+        "product_name": "Nexart Ser14 Wireless LAN Controller",
+        "product_description": "high performance fouteeth series wiresless lan controller",
+        "product_price": 660.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000047",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-15",
+        "product_name": "Nexart Ser15 Wireless LAN Controller",
+        "product_description": "high performance fouteeth series wiresless lan controller",
+        "product_price": 670.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000048",
+        "product_type": "wireless lan controller",
+        "product_model": "NEX-WLC-GE-16",
+        "product_name": "Nexart Ser16 Wireless LAN Controller",
+        "product_description": "high performance sixteenth series wiresless lan controller",
+        "product_price": 680.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000049",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-1",
+        "product_name": "Nexart Ser1 Wireless Access Point",
+        "product_description": "high performance first series wiresless access point",
+        "product_price": 690.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000050",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-2",
+        "product_name": "Nexart Ser2 Wireless Access Point",
+        "product_description": "high performance second series wiresless access point",
+        "product_price": 700.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000051",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-3",
+        "product_name": "Nexart Ser3 Wireless Access Point",
+        "product_description": "high performance third series wiresless access point",
+        "product_price": 710.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000052",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-4",
+        "product_name": "Nexart Ser4 Wireless Access Point",
+        "product_description": "high performance fourth series wiresless access point",
+        "product_price": 720.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000053",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-5",
+        "product_name": "Nexart Ser5 Wireless Access Point",
+        "product_description": "high performance fifth series wiresless access point",
+        "product_price": 730.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000054",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-6",
+        "product_name": "Nexart Ser6 Wireless Access Point",
+        "product_description": "high performance sixth series wiresless access point",
+        "product_price": 740.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000055",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-7",
+        "product_name": "Nexart Ser7 Wireless Access Point",
+        "product_description": "high performance seventh series wiresless access point",
+        "product_price": 750.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000056",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-8",
+        "product_name": "Nexart Ser8 Wireless Access Point",
+        "product_description": "high performance eighth series wiresless access point",
+        "product_price": 760.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000057",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-9",
+        "product_name": "Nexart Ser9 Wireless Access Point",
+        "product_description": "high performance eighth series wiresless access point",
+        "product_price": 770.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000058",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-10",
+        "product_name": "Nexart Ser10 Wireless Access Point",
+        "product_description": "high performance tenth series wiresless access point",
+        "product_price": 780.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000059",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-11",
+        "product_name": "Nexart Ser11 Wireless Access Point",
+        "product_description": "high performance eleventh series wiresless access point",
+        "product_price": 790.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000060",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-12",
+        "product_name": "Nexart Ser12 Wireless Access Point",
+        "product_description": "high performance towelth series wiresless access point",
+        "product_price": 800.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000061",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-13",
+        "product_name": "Nexart Ser13 Wireless Access Point",
+        "product_description": "high performance thirteeth series wiresless access point",
+        "product_price": 810.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000062",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-14",
+        "product_name": "Nexart Ser14 Wireless Access Point",
+        "product_description": "high performance fouteeth series wiresless access point",
+        "product_price": 820.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000063",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-15",
+        "product_name": "Nexart Ser15 Wireless Access Point",
+        "product_description": "high performance fouteeth series wiresless access point",
+        "product_price": 830.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000064",
+        "product_type": "wireless access point",
+        "product_model": "NEX-WAP-GE-16",
+        "product_name": "Nexart Ser16 Wireless Access Point",
+        "product_description": "high performance sixteenth series wiresless access point",
+        "product_price": 840.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000065",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-1",
+        "product_name": "Nexart Ser1 Firewall",
+        "product_description": "high performance first series firewall",
+        "product_price": 850.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000066",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-2",
+        "product_name": "Nexart Ser2 Firewall",
+        "product_description": "high performance second series firewall",
+        "product_price": 860.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000067",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-3",
+        "product_name": "Nexart Ser3 Firewall",
+        "product_description": "high performance third series firewall",
+        "product_price": 870.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000068",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-4",
+        "product_name": "Nexart Ser4 Firewall",
+        "product_description": "high performance fourth series firewall",
+        "product_price": 880.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000069",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-5",
+        "product_name": "Nexart Ser5 Firewall",
+        "product_description": "high performance fifth series firewall",
+        "product_price": 890.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000070",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-6",
+        "product_name": "Nexart Ser6 Firewall",
+        "product_description": "high performance sixth series firewall",
+        "product_price": 900.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000071",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-7",
+        "product_name": "Nexart Ser7 Firewall",
+        "product_description": "high performance seventh series firewall",
+        "product_price": 910.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000072",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-8",
+        "product_name": "Nexart Ser8 Firewall",
+        "product_description": "high performance eighth series firewall",
+        "product_price": 920.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000073",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-9",
+        "product_name": "Nexart Ser9 Firewall",
+        "product_description": "high performance eighth series firewall",
+        "product_price": 930.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000074",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-10",
+        "product_name": "Nexart Ser10 Firewall",
+        "product_description": "high performance tenth series firewall",
+        "product_price": 940.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000075",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-11",
+        "product_name": "Nexart Ser11 Firewall",
+        "product_description": "high performance eleventh series firewall",
+        "product_price": 950.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000076",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-12",
+        "product_name": "Nexart Ser12 Firewall",
+        "product_description": "high performance towelth series firewall",
+        "product_price": 960.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000077",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-13",
+        "product_name": "Nexart Ser13 Firewall",
+        "product_description": "high performance thirteeth series firewall",
+        "product_price": 970.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000078",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-14",
+        "product_name": "Nexart Ser14 Firewall",
+        "product_description": "high performance fouteeth series firewall",
+        "product_price": 980.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000079",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-15",
+        "product_name": "Nexart Ser15 Firewall",
+        "product_description": "high performance fouteeth series firewall",
+        "product_price": 990.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000080",
+        "product_type": "firewall",
+        "product_model": "NEX-F-GE-16",
+        "product_name": "Nexart Ser16 Firewall",
+        "product_description": "high performance sixteenth series firewall",
+        "product_price": 1000.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000081",
+        "product_type": "accessory",
+        "product_model": "NEX-POEEI-GE-1",
+        "product_name": "Nexart Ser1 POE External Injector",
+        "product_description": "high performance first series POE external Injector",
+        "product_price": 1010.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000082",
+        "product_type": "accessory",
+        "product_model": "NEX-POEEI-GE-2",
+        "product_name": "Nexart Ser2  POE External Injector",
+        "product_description": "high performance second series POE external Injector",
+        "product_price": 1020.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000083",
+        "product_type": "accessory",
+        "product_model": "NEX-POEEI-GE-3",
+        "product_name": "Nexart Ser3  POE External Injector",
+        "product_description": "high performance third series POE external Injector",
+        "product_price": 1030.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000084",
+        "product_type": "accessory",
+        "product_model": "NEX-POEEI-GE-4",
+        "product_name": "Nexart Ser4  POE External Injector",
+        "product_description": "high performance fourth series POE external Injector",
+        "product_price": 1040.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000085",
+        "product_type": "accessory",
+        "product_model": "NEX-QSPFtSFP-1",
+        "product_name": "Nexart Ser1 QSPF to SFP Patch Cable",
+        "product_description": "high performance first series QSFP ro SFP Patch Cable",
+        "product_price": 1050.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000086",
+        "product_type": "accessory",
+        "product_model": "NEX-QSPFtSFP-2",
+        "product_name": "Nexart Ser2 QSPF to SFP Patch Cable",
+        "product_description": "high performance second series QSFP ro SFP Patch Cable",
+        "product_price": 1060.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000087",
+        "product_type": "accessory",
+        "product_model": "NEX-QSPFtSFP-3",
+        "product_name": "Nexart Ser3 QSPF to SFP Patch Cable",
+        "product_description": "high performance third series QSFP ro SFP Patch Cable",
+        "product_price": 1070.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000088",
+        "product_type": "accessory",
+        "product_model": "NEX-QSPFtSFP-4",
+        "product_name": "Nexart Ser4 QSPF to SFP Patch Cable",
+        "product_description": "high performance fourth series QSFP ro SFP Patch Cable",
+        "product_price": 1080.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000089",
+        "product_type": "accessory",
+        "product_model": "NEX-EPS-1",
+        "product_name": "Nexart Ser1 Edge Power Supplier",
+        "product_description": "high performance first series edge power supplier",
+        "product_price": 1090.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000090",
+        "product_type": "accessory",
+        "product_model": "NEX-EPS-2",
+        "product_name": "Nexart Ser2 Edge Power Supplier",
+        "product_description": "high performance second series edge power supplier",
+        "product_price": 1100.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000091",
+        "product_type": "accessory",
+        "product_model": "NEX-EPS-3",
+        "product_name": "Nexart Ser3 Edge Power Supplier",
+        "product_description": "high performance third series edge power supplier",
+        "product_price": 1110.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000092",
+        "product_type": "accessory",
+        "product_model": "NEX-EPS-4",
+        "product_name": "Nexart Ser4 Edge Power Supplier",
+        "product_description": "high performance fourth series edge power supplier",
+        "product_price": 1120.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000093",
+        "product_type": "accessory",
+        "product_model": "NEX-EtUA-1",
+        "product_name": "Nexart Ser1 Ethernet to USB Adapter",
+        "product_description": "high performance first series ethernet to usb adapter",
+        "product_price": 1130.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000094",
+        "product_type": "accessory",
+        "product_model": "NEX-EtUA-2",
+        "product_name": "Nexart Ser2 Ethernet to USB Adapter",
+        "product_description": "high performance second series ethernet to usb adapter",
+        "product_price": 1140.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000095",
+        "product_type": "accessory",
+        "product_model": "NEX-EtUA-3",
+        "product_name": "Nexart Ser3 Ethernet to USB Adapter",
+        "product_description": "high performance third series ethernet to usb adapter",
+        "product_price": 1150.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000096",
+        "product_type": "accessory",
+        "product_model": "NEX-EtUA-4",
+        "product_name": "Nexart Ser4 Ethernet to USB Adapter",
+        "product_description": "high performance fourth series ethernet to usb adapter",
+        "product_price": 1160.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000097",
+        "product_type": "switch",
+        "product_model": "NEX-L2S-GE-9",
+        "product_name": "Nexart Layer 2 Ser9 Managable Switch",
+        "product_description": "high performance layer 2 nineteeth series switch",
+        "product_price": 1170.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000098",
+        "product_type": "switch",
+        "product_model": "NEX-L3S-GE-9",
+        "product_name": "Nexart Layer 3 Ser9 Managable Switch",
+        "product_description": "high performance layer 3 nineteeth series switch",
+        "product_price": 1180.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000099",
+        "product_type": "router",
+        "product_model": "NEX-R-GE-9",
+        "product_name": "Nexart Ser9 Managable Router",
+        "product_description": "high performance nineteeth series router",
+        "product_price": 1190.5,
+        "product_image": ""
+    },
+    {
+        "_id": "prd00000100",
+        "product_type": "router",
+        "product_model": "NEX-WR-GE-9",
+        "product_name": "Nexart Ser9 Managable Wireless Router",
+        "product_description": "high performance nineteeth series wireless router",
+        "product_price": 1200.5,
+        "product_image": ""
+    }
+]

@@ -1,0 +1,93 @@
+<h2 class="text-center mt-4 mb-4">Explore the World of Beverages!</h2>
+        <div class="d-flex justify-content-center align-items-center mt-2 w-100">
+          <img id="recipe-image" src="{{ url_for('static', filename='images/beverage_montage.png') }}" class="card-img-top img-fluid align-items-center w-50" alt="">
+        </div>
+        <!--Image Input Start-->
+        <div class="row mt-3 mb-3">
+          <form method="POST" enctype="multipart/form-data">
+              <div class="input-group mb-3">
+                  <input type="file" name="image" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                  <button class="btn btn-dark" type="submit" value="Upload" id="inputGroupFileAddon04">Upload</button>
+              </div>
+          </form>
+      
+          {% if prediction %}
+          <h3 class="text-center">Predicted Ingredient: {{ prediction }}</h3>
+          <h1 class="text-center mb-4">Beverages made with '{{ prediction }}'</h1>
+          {% if beverages %}
+              <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+                  {% for beverage in beverages %}
+                  <div class="col">
+                      <div class="card h-100" style="background-color: rgba(255, 255, 255, 0.2);">
+                          <img src="{{ url_for('static', filename='images/drink_default.png') }}" class="card-img-top" alt="Beverage Image">
+                          <div class="card-body">
+                              <h5 class="card-title text-center">{{ beverage['Recipe Name'] }}</h5>
+                          </div>
+      
+                          <!-- Button to view full recipe -->
+                          <button class="btn btn-primary col-11 mx-auto mb-3" onclick="loadRecipe('{{ beverage['Recipe Name'] }}')">
+                              View Recipe
+                          </button>
+                      </div>
+                  </div>
+                  {% endfor %}
+              </div>
+          {% else %}
+              <p>No beverages found using '{{ prediction }}'.</p>
+          {% endif %}
+          {% endif %}
+      
+          <!-- Recipe Details Card Start -->
+            <div id="recipe-details" class="row d-none">
+                <div class="col">
+                    <div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.4);">
+                        <div class="d-flex justify-content-center align-items-center mt-2">
+                            <img class="w-50" id="recipe-image" src="{{ url_for('static', filename='images/drink_default.png') }}" class="card-img-top img-fluid align-items-center w-75" alt="">
+                        </div>
+                        <div class="card-body">
+                            <!-- Recipe Name -->
+                            <h5 class="card-title" id="recipe-name"></h5>
+                            <p class="card-text" id="recipe-description">This is a delicious smoothie perfect for a refreshing treat!</p>
+
+                            <!-- Ingredients -->
+                            <h6>Ingredients</h6>
+                            <ul id="recipe-ingredients"></ul>
+
+                            <!-- Nutritional Information -->
+                            <h6>Nutritional Information (per serving)</h6>
+                            <table class="table custom-table">
+                                <tbody>
+                                    <tr><td>Calories</td><td id="recipe-calories"></td></tr>
+                                    <tr><td>Carbohydrates</td><td id="recipe-carbs"></td></tr>
+                                    <tr><td>Sugars</td><td id="recipe-sugars"></td></tr>
+                                    <tr><td>Protein</td><td id="recipe-protein"></td></tr>
+                                    <tr><td>Fat</td><td id="recipe-fat"></td></tr>
+                                    <tr><td>Fiber</td><td id="recipe-fiber"></td></tr>
+                                    <tr><td>Sodium</td><td id="recipe-sodium"></td></tr>
+                                </tbody>
+                            </table>
+
+                            <!-- Dietary Preferences -->
+                            <h6>Dietary Preferences (per serving)</h6>
+                            <ul id="recipe-dietary-preferences"></ul>
+
+                            <!-- Preparation Steps -->
+                            <h6>Preparation Steps</h6>
+                            <ol id="recipe-instructions"></ol>
+
+                            <!-- Serving Size -->
+                            <h6>Serving Size</h6>
+                            <p id="recipe-serving-size"></p>
+
+                            <!-- Additional Notes -->
+                            <h6>Additional Notes</h6>
+                            <p id="recipe-additional-notes"></p>
+
+                            <!-- Source URL -->
+                            <h6>Source URL</h6>
+                            <a href="#" id="recipe-source-url" target="_blank">View Full Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Recipe Details Card End -->
